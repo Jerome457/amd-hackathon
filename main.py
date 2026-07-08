@@ -3,10 +3,12 @@ import json
 import sys
 from openai import OpenAI
 
-INPUT_PATH = "/input/tasks.json"
-OUTPUT_DIR = "/output"
+INPUT_PATH = "./input/tasks.json" # remove the . for docker test run???
+OUTPUT_DIR = "./output"
 OUTPUT_PATH = OUTPUT_DIR + "/results.json"
 
+from dotenv import load_dotenv
+load_dotenv()
 API_KEY = os.environ["FIREWORKS_API_KEY"]
 BASE_URL = os.environ["FIREWORKS_BASE_URL"]
 MODELS = os.environ["ALLOWED_MODELS"].split(",")
@@ -23,8 +25,8 @@ def get_answers(client, model, tasks):
     for task in tasks:
         response = client.chat.completions.create(
             model=model,
-            temperature=0,
-            max_tokens=128,
+            max_tokens=1000000,
+            temperature=1.0,
             messages=[
                 {
                     "role": "system",
@@ -32,6 +34,7 @@ def get_answers(client, model, tasks):
                         "You are a precise assistant. "
                         "Answer accurately and concisely. "
                         "Return only the requested answer."
+                        "Use as few tokens as possible."
                     ),
                 },
                 {
@@ -60,7 +63,7 @@ def write_output(answers):
         json.load(f)
 
 def main():
-    model = "minimax-m3" # MODELS[0].strip()
+    model = "accounts/fireworks/models/minimax-m3" # MODELS[0].strip()
     client = OpenAI(
         api_key=API_KEY,
         base_url=BASE_URL,
