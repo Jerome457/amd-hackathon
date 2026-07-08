@@ -60,7 +60,7 @@ def write_output(answers):
         json.load(f)
 
 def main():
-    model = MODELS[0].strip()
+    model = "minimax-m3" # MODELS[0].strip()
     client = OpenAI(
         api_key=API_KEY,
         base_url=BASE_URL,
