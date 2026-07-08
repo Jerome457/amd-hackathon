@@ -1,49 +1,80 @@
 import os
+import json
+import sys
 from openai import OpenAI
 
-import json
+INPUT_PATH = "/input/tasks.json"
+OUTPUT_DIR = "/output"
+OUTPUT_PATH = OUTPUT_DIR + "/results.json"
 
+API_KEY = os.environ["FIREWORKS_API_KEY"]
+BASE_URL = os.environ["FIREWORKS_BASE_URL"]
+MODELS = os.environ["ALLOWED_MODELS"].split(",")
 
-def solve(prompt):
-    client = OpenAI(
-    api_key=os.environ.get("FIREWORKS_API_KEY"),
-    base_url=os.environ.get("FIREWORKS_BASE_URL")
-    )
+def get_tasks():
+    tasks = None
+    with open(INPUT_PATH, "r") as input_file:
+        tasks = json.load(input_file)
+    return tasks
 
-
-    MODELS = os.environ["ALLOWED_MODELS"].split(",")
-
-    response = client.chat.completions.create(
-        model="accounts/fireworks/models/kimi-k2p7-code",
-        messages=[{
-            "role": "user",
-            "content": prompt,
-        }],
-    )
-    return f"{response.choices[0].message.content}"
-
-def main():
-    input_path = "./input/tasks.json"
-    output_path = "./output/results.json"
-
-    with open(input_path, "r") as f:
-        tasks = json.load(f)
-
+def get_answers(client, model, tasks):
     results = []
 
     for task in tasks:
-        answer = solve(task["prompt"])
+        response = client.chat.completions.create(
+            model=model,
+            temperature=0,
+            max_tokens=128,
+            messages=[
+                {
+                    "role": "system",
+                    "content": (
+                        "You are a precise assistant. "
+                        "Answer accurately and concisely. "
+                        "Return only the requested answer."
+                    ),
+                },
+                {
+                    "role": "user",
+                    "content": task["prompt"],
+                },
+            ],
+        )
 
-        results.append({
-            "task_id": task["task_id"],
-            "answer": answer
-        })
+        answer = response.choices[0].message.content.strip()
+        results.append(
+            {
+                "task_id": task["task_id"],
+                "answer": answer,
+            }
+        )
 
-    os.makedirs("./output", exist_ok=True)
+    return results
 
-    # Write output
-    with open(output_path, "w") as f:
-        json.dump(results, f, indent=2)
+def write_output(answers):
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+        json.dump(answers, f, ensure_ascii=False, indent=2)
+
+    with open(OUTPUT_PATH, "r", encoding="utf-8") as f:
+        json.load(f)
+
+def main():
+    model = MODELS[0].strip()
+    client = OpenAI(
+        api_key=API_KEY,
+        base_url=BASE_URL,
+        timeout=30
+    )
+
+    tasks = get_tasks()
+    answers = get_answers(client, model, tasks)
+    write_output(answers)
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+        sys.exit(0)
+    except Exception as e:
+        print(e, file=sys.stderr)
+        sys.exit(1)
