@@ -4,22 +4,14 @@ from typing import Any
 from dotenv import load_dotenv
 from openai import OpenAI
 
-load_dotenv()
+from prompt_profiles import get_default_model, get_prompt_profile
+from router import route_message
 
-DEFAULT_MODEL = "accounts/fireworks/models/minimax-m3"
-SYSTEM_PROMPT = (
-    "You are a precise assistant. "
-    "Answer accurately and concisely. "
-    "Return only the requested answer. "
-    "Use as few tokens as possible."
-)
+load_dotenv()
 
 
 def get_model() -> str:
-    allowed_models = os.getenv("ALLOWED_MODELS", "")
-    if allowed_models.strip():
-        return allowed_models.split(",")[0].strip()
-    return DEFAULT_MODEL
+    return get_default_model()
 
 
 def get_client() -> OpenAI:
@@ -32,20 +24,14 @@ def get_client() -> OpenAI:
 
 def get_response(message: str, model: str | None = None) -> str:
     client = get_client()
+    route = route_message(client, message, model or get_model())
+    profile = get_prompt_profile(route.category, route.difficulty)
+
     response = client.chat.completions.create(
-        model=model or get_model(),
+        model=model or profile.model,
         max_tokens=10000,
         temperature=0.0,
-        messages=[
-            {
-                "role": "system",
-                "content": SYSTEM_PROMPT,
-            },
-            {
-                "role": "user",
-                "content": message,
-            },
-        ],
+        messages=profile.messages_for(message),
     )
 
     return (response.choices[0].message.content or "").strip()

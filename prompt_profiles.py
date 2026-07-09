@@ -4,17 +4,18 @@ from dataclasses import dataclass
 Category = str
 Difficulty = str
 
-DEFAULT_MODEL = "accounts/fireworks/models/minimax-m3"
-CODE_MODEL = "accounts/fireworks/models/kimi-k2p7-code"
+GENERAL_MODEL_KEYWORDS = ("minimax", "gemma")
+REASONING_CODE_MODEL_KEYWORDS = ("kimi", "code")
 
 
 @dataclass(frozen=True)
 class PromptProfile:
     category: Category
     difficulty: Difficulty
-    model: str
     system_prompt: str
     output_style: str
+    model: str = ""
+    model_role: str = "general"
 
     def messages_for(self, user_prompt: str) -> list[dict[str, str]]:
         return [
@@ -34,7 +35,7 @@ PROMPT_PROFILES: dict[Category, dict[Difficulty, PromptProfile]] = {
         "easy": PromptProfile(
             category="factual_qa",
             difficulty="easy",
-            model=DEFAULT_MODEL,
+            model_role="general",
             system_prompt=(
                 "Answer factual questions directly. Use only well-established facts. "
                 "If the question has multiple parts, answer each part in order."
@@ -44,7 +45,7 @@ PROMPT_PROFILES: dict[Category, dict[Difficulty, PromptProfile]] = {
         "hard": PromptProfile(
             category="factual_qa",
             difficulty="hard",
-            model=DEFAULT_MODEL,
+            model_role="general",
             system_prompt=(
                 "Answer factual questions carefully and verify relationships between "
                 "entities before responding. Avoid speculation."
@@ -56,7 +57,7 @@ PROMPT_PROFILES: dict[Category, dict[Difficulty, PromptProfile]] = {
         "easy": PromptProfile(
             category="math_reasoning",
             difficulty="easy",
-            model=DEFAULT_MODEL,
+            model_role="reasoning_code",
             system_prompt=(
                 "Solve arithmetic and word problems exactly. Track quantities and "
                 "operations carefully before giving the final result."
@@ -66,7 +67,7 @@ PROMPT_PROFILES: dict[Category, dict[Difficulty, PromptProfile]] = {
         "hard": PromptProfile(
             category="math_reasoning",
             difficulty="hard",
-            model=DEFAULT_MODEL,
+            model_role="reasoning_code",
             system_prompt=(
                 "Solve multi-step reasoning problems exactly. Identify assumptions, "
                 "perform calculations step by step internally, and check the final value."
@@ -78,7 +79,7 @@ PROMPT_PROFILES: dict[Category, dict[Difficulty, PromptProfile]] = {
         "easy": PromptProfile(
             category="sentiment",
             difficulty="easy",
-            model=DEFAULT_MODEL,
+            model_role="general",
             system_prompt=(
                 "Classify the sentiment of the provided text. Consider mixed evidence "
                 "when positive and negative statements both appear."
@@ -88,7 +89,7 @@ PROMPT_PROFILES: dict[Category, dict[Difficulty, PromptProfile]] = {
         "hard": PromptProfile(
             category="sentiment",
             difficulty="hard",
-            model=DEFAULT_MODEL,
+            model_role="general",
             system_prompt=(
                 "Classify nuanced sentiment. Separate factual statements from opinions "
                 "and account for contrastive wording."
@@ -100,7 +101,7 @@ PROMPT_PROFILES: dict[Category, dict[Difficulty, PromptProfile]] = {
         "easy": PromptProfile(
             category="summarization",
             difficulty="easy",
-            model=DEFAULT_MODEL,
+            model_role="general",
             system_prompt=(
                 "Summarize the source text faithfully. Preserve the central cause, "
                 "constraint, or conclusion without adding outside information."
@@ -110,7 +111,7 @@ PROMPT_PROFILES: dict[Category, dict[Difficulty, PromptProfile]] = {
         "hard": PromptProfile(
             category="summarization",
             difficulty="hard",
-            model=DEFAULT_MODEL,
+            model_role="general",
             system_prompt=(
                 "Compress dense technical text while preserving the main bottleneck, "
                 "response, and constraints. Do not introduce unsupported claims."
@@ -122,7 +123,7 @@ PROMPT_PROFILES: dict[Category, dict[Difficulty, PromptProfile]] = {
         "easy": PromptProfile(
             category="ner",
             difficulty="easy",
-            model=DEFAULT_MODEL,
+            model_role="general",
             system_prompt=(
                 "Extract named entities from the text and assign clear entity types. "
                 "Do not include generic nouns or unnamed references."
@@ -132,7 +133,7 @@ PROMPT_PROFILES: dict[Category, dict[Difficulty, PromptProfile]] = {
         "hard": PromptProfile(
             category="ner",
             difficulty="hard",
-            model=DEFAULT_MODEL,
+            model_role="general",
             system_prompt=(
                 "Extract named entities with precise types. Include people, "
                 "organizations, locations, dates, products, and events when present."
@@ -144,7 +145,7 @@ PROMPT_PROFILES: dict[Category, dict[Difficulty, PromptProfile]] = {
         "easy": PromptProfile(
             category="debugging",
             difficulty="easy",
-            model=CODE_MODEL,
+            model_role="reasoning_code",
             system_prompt=(
                 "Find the bug in the provided code and provide the minimal corrected "
                 "version. Prefer simple, idiomatic Python."
@@ -154,7 +155,7 @@ PROMPT_PROFILES: dict[Category, dict[Difficulty, PromptProfile]] = {
         "hard": PromptProfile(
             category="debugging",
             difficulty="hard",
-            model=CODE_MODEL,
+            model_role="reasoning_code",
             system_prompt=(
                 "Diagnose code defects precisely. Consider edge cases, empty inputs, "
                 "type assumptions, and expected behavior before proposing a fix."
@@ -166,7 +167,7 @@ PROMPT_PROFILES: dict[Category, dict[Difficulty, PromptProfile]] = {
         "easy": PromptProfile(
             category="logical_reasoning",
             difficulty="easy",
-            model=DEFAULT_MODEL,
+            model_role="reasoning_code",
             system_prompt=(
                 "Solve logic puzzles by applying each constraint exactly. Eliminate "
                 "impossible assignments before answering."
@@ -176,7 +177,7 @@ PROMPT_PROFILES: dict[Category, dict[Difficulty, PromptProfile]] = {
         "hard": PromptProfile(
             category="logical_reasoning",
             difficulty="hard",
-            model=DEFAULT_MODEL,
+            model_role="reasoning_code",
             system_prompt=(
                 "Solve constraint reasoning tasks carefully. Track all entities, "
                 "attributes, and exclusions before producing the final answer."
@@ -188,7 +189,7 @@ PROMPT_PROFILES: dict[Category, dict[Difficulty, PromptProfile]] = {
         "easy": PromptProfile(
             category="code_generation",
             difficulty="easy",
-            model=CODE_MODEL,
+            model_role="reasoning_code",
             system_prompt=(
                 "Write correct, simple Python code for the requested behavior. Include "
                 "edge-case handling when the prompt asks for it."
@@ -198,7 +199,7 @@ PROMPT_PROFILES: dict[Category, dict[Difficulty, PromptProfile]] = {
         "hard": PromptProfile(
             category="code_generation",
             difficulty="hard",
-            model=CODE_MODEL,
+            model_role="reasoning_code",
             system_prompt=(
                 "Write robust Python code with clear handling of edge cases, duplicates, "
                 "invalid inputs, and expected return values."
@@ -217,17 +218,45 @@ def get_allowed_models() -> list[str]:
     return [model.strip() for model in models.split(",") if model.strip()]
 
 
+def find_model_by_keywords(models: list[str], keywords: tuple[str, ...]) -> str | None:
+    for model in models:
+        normalized_model = model.lower()
+        if any(keyword in normalized_model for keyword in keywords):
+            return model
+    return None
+
+
+def require_allowed_models() -> list[str]:
+    allowed_models = get_allowed_models()
+    if not allowed_models:
+        raise ValueError("ALLOWED_MODELS must contain at least one model")
+    return allowed_models
+
+
+def get_default_model() -> str:
+    allowed_models = require_allowed_models()
+    return find_model_by_keywords(allowed_models, GENERAL_MODEL_KEYWORDS) or allowed_models[0]
+
+
+def get_reasoning_code_model() -> str:
+    allowed_models = require_allowed_models()
+    return find_model_by_keywords(allowed_models, REASONING_CODE_MODEL_KEYWORDS) or allowed_models[0]
+
+
+def get_code_model() -> str:
+    return get_reasoning_code_model()
+
+
 def recommend_model(category: Category, difficulty: Difficulty = "easy") -> str:
     if category not in PROMPT_PROFILES:
         raise ValueError(f"Unknown category: {category}")
     if difficulty not in PROMPT_PROFILES[category]:
         raise ValueError(f"Unknown difficulty for {category}: {difficulty}")
 
-    preferred_model = PROMPT_PROFILES[category][difficulty].model
-    allowed_models = get_allowed_models()
-    if not allowed_models or preferred_model in allowed_models:
-        return preferred_model
-    return allowed_models[0]
+    if PROMPT_PROFILES[category][difficulty].model_role == "reasoning_code":
+        return get_reasoning_code_model()
+
+    return get_default_model()
 
 
 def get_prompt_profile(
@@ -241,6 +270,7 @@ def get_prompt_profile(
         model=recommend_model(category, difficulty),
         system_prompt=profile.system_prompt,
         output_style=profile.output_style,
+        model_role=profile.model_role,
     )
 
 
