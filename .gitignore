@@ -2,3 +2,5 @@
 .env
 output/
 __pycache__/
+models/
+checkpoints/
