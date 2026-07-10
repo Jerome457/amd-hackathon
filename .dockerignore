@@ -6,8 +6,10 @@ __pycache__/
 *.pyd
 
 output/
+input/
 
 .env
+.env.example
 
 .vscode/
 .idea/
@@ -16,5 +18,9 @@ output/
 
 build/
 dist/
+vuln-trial
 
 .cache/
+
+test_router.py
+server.py
