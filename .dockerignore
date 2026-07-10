@@ -1,4 +1,4 @@
-.venv
+.venv/
 .git
 __pycache__/
 *.pyc
@@ -24,3 +24,7 @@ vuln-trial
 
 test_router.py
 server.py
+
+.gitignore
+.dockerignore
+.python-version
