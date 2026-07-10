@@ -1,16 +1,20 @@
 import json
-import os
+import logging
 from datetime import datetime, timezone
-from pathlib import Path
 from typing import Any
 
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-LOG_PATH = Path(os.getenv("VULN_TRIAL_LOG_PATH", "received_tasks.jsonl"))
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(message)s",
+)
+logger = logging.getLogger(__name__)
 
 app = FastAPI(title="Vuln Trial Task Receiver")
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -22,12 +26,6 @@ app.add_middleware(
 
 class TaskPayload(BaseModel):
     task: dict[str, Any]
-
-
-def append_record(record: dict[str, Any]) -> None:
-    LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with LOG_PATH.open("a", encoding="utf-8") as log_file:
-        log_file.write(json.dumps(record, ensure_ascii=False) + "\n")
 
 
 @app.post("/tasks")
@@ -43,7 +41,9 @@ async def receive_task(payload: TaskPayload, request: Request) -> dict[str, str]
         "headers": dict(request.headers),
         "task": payload.task,
     }
-    append_record(record)
+
+    logger.info(json.dumps(record, ensure_ascii=False))
+
     return {"status": "ok"}
 
 
