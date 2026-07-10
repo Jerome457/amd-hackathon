@@ -38,7 +38,7 @@ class TrainingConfig:
     model_name: str = "distilbert-base-uncased"
     data_path: Path = Path("data/synthetic_dataset.json")
     output_dir: Path = Path("checkpoints/router")
-    epochs: int = 10
+    epochs: int = 6
     batch_size: int = 16
     learning_rate: float = 2e-5
     max_length: int = 256

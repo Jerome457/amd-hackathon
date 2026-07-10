@@ -9,6 +9,10 @@ from prompt_profiles import get_prompt_profile
 
 load_dotenv()
 
+from local_llm import generate_with_confidence
+
+LOCAL_CONFIDENCE_THRESHOLD = float(os.getenv("LOCAL_MODEL_FALLBACK_THRESHOLD", "0.65"))
+
 def get_client() -> OpenAI:
     return OpenAI(
         api_key=os.environ["FIREWORKS_API_KEY"],
@@ -18,8 +22,6 @@ def get_client() -> OpenAI:
 
 
 def get_response(message: str) -> str:
-    client = get_client()
-
     # -------------------------
     # Route the prompt
     # -------------------------
@@ -32,6 +34,23 @@ def get_response(message: str) -> str:
     # Select model + prompts
     # -------------------------
     profile = get_prompt_profile(category, difficulty)
+
+    if difficulty == "easy":
+        try:
+            local_result = generate_with_confidence(profile.messages_for(message))
+            local_confidence = float(local_result.get("confidence", 0.0))
+            should_fallback = bool(local_result.get("fallback_recommended", False))
+
+            if (
+                local_result.get("answer")
+                and local_confidence >= LOCAL_CONFIDENCE_THRESHOLD
+                and not should_fallback
+            ):
+                return str(local_result["answer"]).strip()
+        except Exception:
+            pass
+
+    client = get_client()
 
     response = client.chat.completions.create(
         model=profile.model,

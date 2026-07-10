@@ -6,3 +6,4 @@ accelerate
 tokenizers
 safetensors
 scikit-learn
+llama-cpp-python==0.3.16
