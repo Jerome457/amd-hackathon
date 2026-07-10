@@ -15,4 +15,4 @@ RUN pip install --no-cache-dir -r requirements-testing.txt
 
 COPY . .
 
-CMD ["python", "testing.py"]
+CMD ["python", "-u", "testing.py"]

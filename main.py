@@ -21,7 +21,7 @@ def get_client() -> OpenAI:
     )
 
 
-def get_response(message: str) -> str:
+def get_response_with_source(message: str) -> tuple[str, str]:
     # -------------------------
     # Route the prompt
     # -------------------------
@@ -46,7 +46,7 @@ def get_response(message: str) -> str:
                 and local_confidence >= LOCAL_CONFIDENCE_THRESHOLD
                 and not should_fallback
             ):
-                return str(local_result["answer"]).strip()
+                return str(local_result["answer"]).strip(), "local_llm"
         except Exception:
             pass
 
@@ -59,7 +59,12 @@ def get_response(message: str) -> str:
         messages=profile.messages_for(message),
     )
 
-    return (response.choices[0].message.content or "").strip()
+    return (response.choices[0].message.content or "").strip(), "fireworks"
+
+
+def get_response(message: str) -> str:
+    answer, _ = get_response_with_source(message)
+    return answer
 
 
 def get_answers(tasks: list[dict[str, Any]]) -> list[dict[str, str]]:

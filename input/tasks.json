@@ -1,10 +1,58 @@
 [
-{ "task_id": "practice-01", "prompt": "What is the capital of Australia, and what body of water is it near?" },
-{ "task_id": "practice-02", "prompt": "A store has 240 items. It sells 15% on Monday and 60 more on Tuesday. How many items remain?" },
-{ "task_id": "practice-03", "prompt": "Classify the sentiment of this review: The battery life is great, but the screen scratches too easily." },
-{ "task_id": "practice-04", "prompt": "Summarize the following in exactly one sentence: The global transition to renewable energy faces a critical bottleneck in grid infrastructure, where legacy alternating current (AC) networks struggle to manage the intermittent, highly distributed generation profiles of utility-scale solar and offshore wind farms without causing destabilizing voltage fluctuations; consequently, engineering firms are aggressively deploying high-voltage direct current (HVDC) transmission lines and grid-scale lithium-iron-phosphate (LFP) battery storage systems to act as dynamic buffers, yet this technological overhaul remains severely constrained by regulatory delays, geopolitical conflicts over rare-earth mineral supply chains, and a stark deficit in specialized electrical engineering talent." },
-{ "task_id": "practice-05", "prompt": "Extract all named entities and their types from: Maria Sanchez joined Fireworks AI in Berlin last March." },
-{ "task_id": "practice-06", "prompt": "This function should return the max of a list but has a bug: def get_max(nums): return nums[0]. Find and fix it." },
-{ "task_id": "practice-07", "prompt": "Three friends, Sam, Jo, and Lee, each own a different pet: cat, dog, bird. Sam does not own the bird. Jo owns the dog. Who owns the cat?" },
-{ "task_id": "practice-08", "prompt": "Write a Python function that returns the second-largest number in a list, handling duplicates correctly." }
+  {
+    "task_id": "practice-01",
+    "prompt": "What is the capital of Australia, and what body of water is it near?"
+  },
+  {
+    "task_id": "practice-02",
+    "prompt": "A store has 240 items. It sells 15% on Monday and 60 more on Tuesday. How many items remain?"
+  },
+  {
+    "task_id": "practice-03",
+    "prompt": "Classify the sentiment of this review: The battery life is great, but the screen scratches too easily."
+  },
+  {
+    "task_id": "practice-04",
+    "prompt": "Summarize the following in exactly one sentence: The global transition to renewable energy faces a critical bottleneck in grid infrastructure, where legacy alternating current (AC) networks struggle to manage the intermittent, highly distributed generation profiles of utility-scale solar and offshore wind farms without causing destabilizing voltage fluctuations; consequently, engineering firms are aggressively deploying high-voltage direct current (HVDC) transmission lines and grid-scale lithium-iron-phosphate (LFP) battery storage systems to act as dynamic buffers, yet this technological overhaul remains severely constrained by regulatory delays, geopolitical conflicts over rare-earth mineral supply chains, and a stark deficit in specialized electrical engineering talent."
+  },
+  {
+    "task_id": "practice-05",
+    "prompt": "Extract all named entities and their types from: Maria Sanchez joined Fireworks AI in Berlin last March."
+  },
+  {
+    "task_id": "practice-06",
+    "prompt": "This function should return the max of a list but has a bug: def get_max(nums): return nums[0]. Find and fix it."
+  },
+  {
+    "task_id": "practice-07",
+    "prompt": "Three friends, Sam, Jo, and Lee, each own a different pet: cat, dog, bird. Sam does not own the bird. Jo owns the dog. Who owns the cat?"
+  },
+  {
+    "task_id": "practice-08",
+    "prompt": "Write a Python function that returns the second-largest number in a list, handling duplicates correctly."
+  },
+  {
+    "task_id": "q023",
+    "prompt": "An item costs $71. It has a 30% discount applied, then 8% sales tax is added to the discounted price. What is the final price, rounded to 2 decimal places?"
+  },
+  {
+    "task_id": "q013",
+    "prompt": "What is 424 + 686?"
+  },
+  {
+    "task_id": "q045",
+    "prompt": "Find and explain the bug in this Python function:\n```python\ndef is_even(n):\n    if n % 2 == 1:\n        return True\n    return False\n```"
+  },
+  {
+    "task_id": "q034",
+    "prompt": "Summarize this in exactly 2 bullet points, each under 15 words: The city's transit authority reported a 22% rise in ridership after launching a flat monthly pass, though fare revenue per trip fell 9% as riders shifted from single tickets. Maintenance costs also rose due to an aging bus fleet, prompting the authority to request emergency funding from the state to cover a projected budget gap next fiscal year."
+  },
+  {
+    "task_id": "q063",
+    "prompt": "Write a Python function `group_anagrams(words)` that groups a list of strings into lists of anagrams of each other. Return a list of groups, each group sorted alphabetically, and the groups sorted by their first element."
+  },
+  {
+    "task_id": "q025",
+    "prompt": "Classify the sentiment of this review and justify it in one sentence: \"This laptop's battery easily lasts a full workday, and the screen is gorgeous.\""
+  }
 ]
