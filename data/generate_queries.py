@@ -4,15 +4,16 @@ import re
 import time
 from pathlib import Path
 from openai import OpenAI
-
+from dotenv import load_dotenv
 # ==========================
 # Configuration
 # ==========================
 
+load_dotenv()
 MODEL = "accounts/fireworks/models/deepseek-v4-pro"
 
 PROMPTS_PER_CALL = 10
-CALLS_PER_CATEGORY = 7
+CALLS_PER_CATEGORY = 13
 
 OUTPUT_FILE = "synthetic_dataset.json"
 
@@ -33,7 +34,7 @@ CATEGORIES = [
 
 CATEGORY_HINTS = {
     "code_generation":
-        "Generate realistic software engineering tasks. Include APIs, algorithms, file handling, data structures, web backends, etc.",
+        "Generate realistic software engineering tasks including algorithms, APIs, web backends, databases, networking, machine learning, concurrency, file systems, testing, and optimization.",
 
     "debugging":
         "Generate prompts asking to fix broken code. Include Python, C++, JavaScript, runtime bugs, edge cases, performance issues.",
@@ -45,8 +46,7 @@ CATEGORY_HINTS = {
         "Generate deduction puzzles, scheduling problems, seating arrangements, truth-teller puzzles and constraint reasoning.",
 
     "factual_qa":
-        "Generate questions from history, geography, biology, chemistry, physics, economics and general knowledge.",
-
+        "Generate questions covering history, geography, biology, chemistry, physics, economics, politics, astronomy, sports, literature, medicine, technology, and current scientific knowledge.",
     "ner":
         "Generate paragraphs containing many people, organizations, locations, products, events and dates.",
 
@@ -97,42 +97,50 @@ or
   "category": "...",
   "difficulty": "hard"
 }
-
 DIFFICULTY GUIDELINES BY CATEGORY:
 
 1. Sentiment Analysis:
-   - Easy: Direct, explicit sentiment (e.g., "I love this product", "This was terrible").
-   - Hard: Mixed feelings, heavy sarcasm, double negatives, or highly subtle/implicit emotions.
+   - Easy: Explicitly positive, negative, or neutral opinions with obvious emotional language.
+   - Hard: Mixed sentiment, sarcasm, irony, implicit opinions, conflicting emotions, or subtle tone.
 
 2. Math Reasoning:
-   - Easy: Direct arithmetic or simple single-step algebraic equations.
-   - Hard: Complex word problems requiring multi-step logic, system of equations, or rate/probability calculations.
+   - Easy: Basic arithmetic, percentages, unit conversions, or single-step algebra.
+   - Hard: Multi-step word problems, combinatorics, probability, optimization, geometry, or symbolic reasoning.
 
 3. Summarization:
-   - Easy: Condensing straightforward, linear news articles or narrative paragraphs.
-   - Hard: Summarizing dense scientific papers, legal contracts, or texts with highly conflicting viewpoints.
+   - Easy: Short, well-structured news articles or narratives with a single clear topic.
+   - Hard: Long scientific papers, legal documents, technical reports, or documents containing multiple viewpoints or conflicting information.
 
 4. Debugging:
-   - Easy: Fixing clear syntax errors, typos, or missing indentations.
-   - Hard: Diagnosing logical bugs, race conditions, edge cases, or performance bottlenecks in complex code.
+   - Easy: Syntax errors, missing imports, indentation issues, or simple runtime exceptions.
+   - Hard: Logical bugs, concurrency issues, memory problems, performance bottlenecks, race conditions, or subtle edge cases.
 
 5. Factual QA:
-   - Easy: Common knowledge, direct lookup questions (e.g., "What is the capital of France?").
-   - Hard: Obscure, niche historical facts, multi-hop queries requiring connecting two separate facts, or resolving historical ambiguities.
+   - Easy: Direct factual questions answerable from common knowledge.
+   - Hard: Multi-hop factual reasoning, temporal reasoning, comparisons across entities, ambiguous historical events, or questions requiring connecting multiple facts.
 
-Rules:
+6. Named Entity Recognition (NER):
+   - Easy: Text containing clearly identifiable people, organizations, locations, dates, and products.
+   - Hard: Ambiguous entity names, nested entities, abbreviations, overlapping entities, multilingual names, or entities requiring contextual disambiguation.
 
-- Every prompt must belong ONLY to the requested category.
-- category must exactly match the requested category.
-- Generate diverse prompts.
-- Mix short and long prompts.
-- Mix beginner and advanced prompts.
-- Roughly 50% easy and 50% hard.
-- Never generate duplicate prompts.
-- Never include answers.
-- Never include markdown.
-- Never explain anything.
-- Return JSON only.
+7. Logical Reasoning:
+   - Easy: Simple deduction, ordering, or one-step logical inference.
+   - Hard: Constraint satisfaction, scheduling, truth-teller puzzles, transitive reasoning, multiple interacting rules, or complex deduction.
+
+8. Code Generation:
+   - Easy: Small utility functions, loops, string manipulation, or basic algorithms.
+   - Hard: Multi-file software design, API integration, asynchronous programming, graph algorithms, parsers, optimization problems, or system design tasks.
+
+Generate exactly 10 prompts:
+- Exactly 5 easy
+- Exactly 5 hard
+
+Additional requirements:
+- Mix short, medium, and long prompts.
+- At least 2 prompts should exceed 200 words.
+- Avoid repeating topics.
+- Make prompts realistic, as if written by actual users.
+- Do not include answers.
 """
 
 # ==========================
@@ -228,7 +236,6 @@ for category in CATEGORIES:
 
             with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
                 json.dump(dataset, f, indent=2, ensure_ascii=False)
-                json.dump(dataset, f, indent=2)
                 f.flush()
                 os.fsync(f.fileno())  # Forces the kernel to flush buffers to file storage
 

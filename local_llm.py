@@ -13,7 +13,7 @@ def _get_model_path() -> Path:
 
 
 def _get_context_size() -> int:
-    return int(os.getenv("LOCAL_MODEL_CTX", "4096"))
+    return int(os.getenv("LOCAL_MODEL_CTX", "2048"))
 
 
 def _get_threads() -> int:
@@ -26,6 +26,7 @@ def get_llm() -> Llama:
         model_path=str(_get_model_path()),
         n_ctx=_get_context_size(),
         n_threads=_get_threads(),
+        n_ubatch=128,
         verbose=False,
     )
 
@@ -63,6 +64,7 @@ def generate_with_confidence(
     output = get_llm().create_chat_completion(
         messages=guarded_messages,
         temperature=temperature,
+        max_tokens=512,
     )
 
     content = output["choices"][0]["message"]["content"] or ""

@@ -1,0 +1,1382 @@
+[
+  {
+    "prompt": "What year did the Berlin Wall fall?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "What is the longest river in Africa?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "What molecule carries genetic instructions in most organisms?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "What is the name of the galaxy that contains our solar system?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "In which sport would you perform a slam dunk?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Explain how the double-slit experiment demonstrates wave-particle duality. In your explanation, describe the setup, the interference pattern, and the effect of measuring which slit a particle passes through. Then, discuss how the delayed-choice quantum eraser experiment extends this demonstration by showing that the decision to observe can be made after the particle has gone through the slits. What does this imply about the nature of reality?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Compare the literary movements of Romanticism and Transcendentalism. Specifically, analyze how William Wordsworth's 'Tintern Abbey' reflects Romantic ideals and how Ralph Waldo Emerson's 'Nature' embodies Transcendentalist thought. What historical events, such as the Industrial Revolution, influenced each movement?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Trace the evolution of economic globalization from the post-World War II Bretton Woods system to the 2008 financial crisis. Begin by describing the 1944 Bretton Woods Conference and the creation of the IMF and World Bank, including their original purposes of exchange rate stability and reconstruction. Then, discuss the shift to floating exchange rates after the Nixon shock of 1971 and the subsequent growth of global capital markets. Detail the role of the General Agreement on Tariffs and Trade (GATT) and its successor, the World Trade Organization (WTO), in reducing trade barriers. Next, explain how the Latin American debt crisis of the 1980s and the Asian financial crisis of 1997 were both outcomes of rapid financial liberalization, yet differed in their root causes: in Latin America, petrodollar recycling and excessive sovereign borrowing led to defaults, while in Asia, currency pegs, speculative attacks, and moral hazard in the banking sector triggered the collapse. Contrast the policy responses: Keynesian demand management in the US during the S&L crisis versus the IMF-imposed structural adjustment programs in Latin America and Asia, which emphasized austerity and privatization. Then, assess the impact of China's 2001 WTO accession on global manufacturing and commodity markets. Provide specific examples: China's share of global steel production rose from 15% in 2000 to over 50% by 2010; its dominance in rare earth extraction (producing 95% of global supply by 2010) disrupted high-tech supply chains; and the end of the Multi-Fibre Arrangement in 2005 reshaped textile trade, with China becoming the world's largest textile exporter. Finally, compare the economic aftermath of the 2008 crisis to the Great Depression. Cite differences: US unemployment peaked at 10% in 2009 versus 25% in 1933; global trade fell by only 12% between 2008-09 compared to a 25% decline in 1929-32. Explain how aggressive monetary policies, including the Federal Reserve's quantitative easing and the European Central Bank's long-term refinancing operations, prevented a repeat of the 1930s banking collapse. Note that employment recovery was faster after 2008, taking about 6 years to return to pre-crisis levels versus over a decade after the Great Depression.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "A researcher is studying the transmission of a novel zoonotic virus, tentatively called 'Virus X,' which originated in bats and jumped to humans through an intermediate host. She finds that in densely populated urban areas, the basic reproduction number (R0) is 2.5, while in rural areas with lower population density but higher proportions of immunocompromised individuals, R0 is only 0.9. Explain how R0 is calculated, including the formula R0 = β * c * D, where β is transmission probability per contact, c is contact rate, and D is infectious period. Discuss what factors might account for the urban-rural discrepancy despite the rural population's higher vulnerability. Consider variables such as public transportation use, air travel connectivity, healthcare infrastructure, baseline immunity from previous coronavirus exposure, and cultural practices like mask-wearing. Then, delve into the historical context of the 1918 influenza pandemic's second wave. Describe how the virus mutated between the first mild wave in spring 1918 and the deadly second wave in autumn, and why it disproportionately killed young adults aged 20-40, possibly due to cytokine storms leading to acute respiratory distress. Compare this viral evolution to the potential for Virus X to become more transmissible or virulent over time, referencing concepts like antigenic drift and shift. Next, identify public health measures implemented in 1918—such as school closures, bans on public gatherings, mandatory mask ordinances, and staggered business hours—and evaluate which of these could be effective today given modern medical advances like rapid PCR testing, antiviral drugs (e.g., remdesivir), and mechanical ventilation. Finally, recount the development of mRNA vaccine technology. Start with Robert Malone's 1987 in vitro transcription experiments that produced functional mRNA, proceed to Katalin Karikó's 2005 discovery that nucleoside modifications reduce immunogenicity, and culminate in the design of lipid nanoparticle-encapsulated mRNA vaccines by Pfizer-BioNTech and Moderna, which received emergency use authorization in December 2020. Include the critical role of government funding through Operation Warp Speed in accelerating production.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Explain how the discovery of CRISPR-Cas9 built upon previous research on bacterial immune systems. Detail the 1987 observation of clustered repeats by Yoshizumi Ishino, the 2005 identification of foreign DNA integration by Francisco Mojica, and the 2012 biochemical characterization of Cas9 by Jennifer Doudna and Emmanuelle Charpentier. Then, describe the contributions of Feng Zhang and George Church in applying CRISPR to mammalian cells. Finally, discuss the case of Victoria Gray, the first person treated for sickle cell disease using CRISPR-edited stem cells, including the treatment approach and outcomes as of 2023.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Hello! I'm helping my younger sibling with a 4th-grade science project about the solar system. I want to make sure we get all the basic facts right because his teacher is very particular. We need to answer the following questions clearly and simply: 1. What is the closest planet to the Sun? 2. Which planet is the largest in our solar system? 3. Which planet is famous for its prominent rings? 4. What is the name of our galaxy? 5. What is a light-year? 6. Which planet is known as the Red Planet and why? 7. How many official planets are there in our solar system, and what are their names in order from the Sun? I think it's eight, and I have a list but I want to confirm: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune. Is that correct? Also, could you explain why Pluto is no longer considered a planet? And what exactly is a dwarf planet? I know it's a lot of questions, but I really want to help my sibling get an A. Please answer with a numbered list so it's easy to copy down. Thank you so much for your time and help! I really appreciate it.",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "What is the capital city of Australia?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Who wrote the novel 'Pride and Prejudice'?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "In what year did World War II end?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "What gas do plants absorb from the atmosphere during photosynthesis?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I'm researching the early civilizations of the Mediterranean and Middle East for a paper, and I need a detailed factual overview that connects several topics. First, what were the primary writing materials used in ancient Egypt and Mesopotamia respectively? Specifically, describe the development and use of papyrus in Egypt and cuneiform on clay tablets in Mesopotamia. How did these materials influence the nature of their literary records and administrative systems? Next, regarding the Bronze Age collapse circa 1200 BCE: which major empires (like the Hittites, Mycenaeans, etc.) disintegrated during this period? What evidence points to the Sea Peoples as a contributing factor, and what other theories exist (such as climate change or internal rebellion)? Also, explain how the subsequent Iron Age enabled the rise of the Assyrian Empire. What technological advantages did iron provide over bronze in weaponry and armor? How did the Assyrians organize their military and adopt iron to build a large, effective army? Finally, can you provide specific dates for the start of the Iron Age in the Near East and the peak of the Assyrian Empire? Additionally, could you mention any prominent archaeological sites or artifacts that support these narratives? I'm looking for references like Tell Leilan or the Uluburun shipwreck. I need precise names, dates, and archaeological findings. Thank you!",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "What is the name of the treaty that ended the Russo-Japanese War, and which U.S. president mediated the negotiations?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Which element is more electronegative: oxygen or chlorine? Provide the Pauling scale values for both.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "If the Library of Alexandria was constructed in the 3rd century BCE and is believed to have been destroyed by the 3rd century CE, estimate how many centuries it may have existed, and name at least two possible events that contributed to its destruction.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Regarding Jupiter's Great Red Spot: what is it, how long has it been observed, and what is its approximate diameter compared to Earth's diameter?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Who wrote the play 'Romeo and Juliet'?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "In what year did the Berlin Wall fall, leading to the reunification of Germany?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "What is the chemical symbol for potassium?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "How many bones are there in the adult human body?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Consider the following scenario: In the early 20th century, two physicists independently derived a theoretical framework that unified space and time. One of them formulated the equivalence principle that led to general relativity, while the other contributed to the development of quantum theory with a constant that bears his name. Name the two physicists and identify the specific year each of their groundbreaking papers was published. Explain how the work of the second physicist contradicted a prediction from the first physicist's theory regarding a phenomenon observed in black body radiation.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "During the Thirty Years' War, there were multiple phases including the Bohemian Revolt, the Danish intervention, the Swedish intervention, and the French intervention. For each phase, provide the year it began, the primary religious affiliation of the major combatants, and the main territorial ruler who initiated the intervention. Then compare the population decline in the Holy Roman Empire to that of other European regions affected by contemporaneous conflicts like the Fronde in France or the Portuguese Restoration War. How did the economic consequences differ between the regions based on the types of warfare employed (mercenary vs. standing armies)?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "What is the fastest land animal?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "The Great Filter hypothesis in the context of the Fermi paradox posits a stage in the evolution of life that is extremely unlikely. If we consider the emergence of multicellular life, the formation of eukaryotic cells via endosymbiosis, and the development of language-capable intelligence as three separate potential filters, evaluate the geological era and duration for each of these events on Earth. Then, assuming the Copernican principle, argue whether the fact that these transitions took billions of years implies a low probability per planetary system, and compare that to the Drake equation's factor for the fraction of civilizations that develop a detectable technology. How would recent discoveries of exoplanets in the habitable zone change the Bayesian priors for these factors?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "What does the Richter scale measure?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "During the Opium Wars, the British Empire gained Hong Kong. China later regained sovereignty over Hong Kong in 1997 under the principle of 'One Country, Two Systems'. Explain the economic and political motivations behind the British desire for territorial concessions in the 19th century, the exact terms of the Treaty of Nanking, and how the stipulations of the 1984 Sino-British Joint Declaration were influenced by changes in global trade patterns after the IMF's structural adjustment programs of the late 20th century. Then, compare the legal status of Taiwan under the San Francisco Peace Treaty to that of Hong Kong's handover, and evaluate the impact these two distinct resolutions of territorial disputes have on modern maritime trade routes in the South China Sea.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Who wrote the novel '1984'?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Last summer, I visited Egypt with my family. We spent two weeks exploring Cairo, Luxor, and Aswan. The pyramids at Giza were the highlight, but we also saw the Sphinx and the Egyptian Museum. The guide mentioned something about Khufu and Cheops, which I think are the same person, but I got confused. I remember the Great Pyramid is one of the Seven Wonders of the Ancient World. I'm trying to piece together the facts. I'm pretty sure it was built during the Old Kingdom, specifically the 4th dynasty, but I want to be certain. Could you confirm that and tell me the approximate year or century it was constructed? Also, any idea how long it took to build? My kids are 8 and 10, so a simple explanation would be great.",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "What is the capital of Australia?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "How many planets are officially recognized in our solar system?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "What is the chemical symbol for gold?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "How do the economic systems of Norway and Saudi Arabia compare in terms of their reliance on natural resources, diversification efforts, and social welfare policies? What are the long-term challenges each country faces due to their resource dependencies?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Can you trace the historical development of the theory of evolution by natural selection, from Darwin and Wallace's early ideas to the modern synthesis incorporating genetics? Include key figures and the evidence that solidified the theory.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I'm researching the impact of the printing press on the Protestant Reformation. I understand that Johannes Gutenberg invented the printing press around 1440, and Martin Luther nailed his 95 Theses in 1517. But I need a detailed factual account of how the availability of printed materials specifically facilitated the spread of Reformation ideas. Which pamphlets were most influential, how did literacy rates affect dissemination, and what role did printers like Hans Lufft play? Also, how did the Catholic Church respond with printed materials of their own? I need to connect these dots for my paper. Please provide a timeline with factual events.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Which country has won the most Olympic gold medals in history, and how does their medal count compare to the second and third countries? Additionally, what sports have contributed most to the leader's total, and have any geopolitical factors, such as boycotts or host country advantages, significantly affected the all-time rankings?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "What is the relationship between entropy in thermodynamics and the concept of information entropy introduced by Claude Shannon? How were these concepts developed independently, and what are the key differences and similarities in their mathematical formulations and applications?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Who was the first president of the United States?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "What is the chemical symbol for water?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "What organ pumps blood throughout the human body?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I am creating an educational poster about the solar system. Could you please provide a comprehensive list of the planets in order from the sun, including their average distance from the sun in astronomical units (AU) and kilometers, their equatorial diameter in kilometers, the length of a day on each planet in Earth hours, the number of known moons, and whether the planet has rings? Additionally, I need the same information for the dwarf planet Pluto, because some people still consider it a planet. Also, could you compare the largest moon of Saturn (Titan) with the smallest planet (Mercury) in terms of size and surface features? Moreover, I'd like to know which planets have atmospheres and a brief description of what they are composed of (e.g., carbon dioxide, nitrogen, methane). Could you also tell me the location of the asteroid belt between Mars and Jupiter, and the Kuiper Belt beyond Neptune, and list three dwarf planets in the Kuiper Belt besides Pluto? This will make my poster very informative. I'd like all the data neatly organized so I can transfer it to my poster. Thank you very much for your help!",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Which country has won the most FIFA World Cup titles?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I'm trying to understand the historical context of the fall of the Western Roman Empire. Can you explain what the primary contributing factors were? Compare the internal and external pressures, and mention the year it fell. Also, how did the division of the empire by Diocletian affect its longevity?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "In a debate about economic systems, I need to argue about the pros and cons of capitalism versus socialism. Could you provide a detailed comparison of the two, including historical examples of countries that implemented each system, their GDP growth rates over the last 50 years, and any major economic crises they faced? Specifically, compare the United States (capitalist) with China (socialist market economy) but also consider Nordic countries like Sweden. I need factual data on income inequality and standard of living indicators. Furthermore, I'd appreciate it if you could include metrics such as the Gini coefficient for each country mentioned, average life expectancy, and education index scores. Also, could you compare the tax rates, social welfare spending, and unemployment benefits in the U.S., Sweden, and China, and explain how these relate to economic mobility? Additionally, discuss how the mixed economies of Germany and Japan fit into this spectrum. Finally, provide a timeline of major economic reforms in China since 1978 and their impact on global trade. I need all this for a comprehensive rebuttal, so please be as detailed and data-driven as possible. I'll be presenting this to an audience of economics students, so accuracy is crucial. Thank you for your assistance.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "What is the largest animal that has ever existed, and during which geological period did it first appear? Additionally, how does its size compare to the largest known dinosaur?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Who invented the World Wide Web and in what year? Also, what was the name of the first web browser, and how did it differ from modern browsers like Chrome?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "How does the mechanism of action of mRNA vaccines differ from traditional live-attenuated vaccines? In addition, what are the long-term efficacy data for COVID-19 mRNA vaccines compared to the Johnson & Johnson adenovirus vaccine?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Which planet is known as the Red Planet?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "How many players are on a standard basketball team on the court at one time?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "In which year did World War II end?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I've been reading about famous scientists and I'm especially interested in Marie Curie. I remember that she discovered radium and polonium, and she was the first woman to win a Nobel Prize, and the only person to ever win Nobel Prizes in two different scientific fields. I think she also contributed to the development of X-rays during World War I. Could you give me a thorough overview of her life, her main discoveries, how she overcame the challenges of being a woman in science in her era, her Nobel Prize achievements, and her lasting impact on both physics and medicine? I'd like to understand not just the facts but how her work changed the world, including any controversies or health issues she faced due to radiation exposure. Please include details about her family background, her move from Poland to France, and her collaboration with her husband Pierre. I want a full picture, as if you're writing a concise but comprehensive encyclopedia entry.",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Which US president was in office when the Berlin Wall was built, and what major space exploration goal did he set that was later achieved?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "What were the primary economic and political causes that led to the fall of the Roman Empire in the West, and how do they compare with the factors that contributed to the decline of the Ottoman Empire centuries later?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Explain the key differences between an mRNA vaccine (like the Pfizer-BioNTech and Moderna COVID-19 vaccines) and a traditional live-attenuated virus vaccine (like the MMR vaccine). How does each type trigger an immune response, what are the advantages and disadvantages of each, and why did the mRNA platform enable such rapid development against a novel virus?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "What are the fundamental differences between quantum computing and classical computing at the hardware and algorithmic level? Why is Shor's algorithm on a quantum computer able to factor large integers exponentially faster than the best known classical algorithms, and what implications does this have for current cryptographic systems such as RSA?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Imagine you are a historian tasked with analyzing the global impact of the Industrial Revolution. I need a detailed breakdown of how the shift from agrarian economies to industrialized manufacturing in 18th- and 19th-century Britain triggered rapid urbanization, transformed labor markets, and created severe public health crises due to overcrowding and lack of sanitation. Specific topics I’d like covered: the Enclosure Movement, the rise of factory towns like Manchester, Edwin Chadwick’s 1842 report on sanitary conditions, and how these pressures eventually led to the 1848 Public Health Act. Then, shift your analysis to late 20th- and early 21st-century China, where the world’s largest migration from rural to urban areas occurred. Compare the health challenges faced in Chinese megacities, the government’s response, and the environmental consequences. Finally, draw contrasts and parallels between the two periods in terms of policy failures, technological solutions, and long-term social impacts. This is for a comparative history essay, so I need factual accuracy and nuanced connections.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "In which year did the Titanic sink?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I've been fascinated by the moons of the outer planets ever since I was a kid. I watched a documentary about the solar system last night, and they mentioned that Jupiter has a lot of moons, way more than Earth. I know Earth has only one moon and Mars has two small moons called Phobos and Deimos, but I'm curious about the exact number of moons Jupiter has. I remember reading somewhere that the number keeps changing because scientists discover new moons all the time. As of the latest count in 2024, how many confirmed moons does Jupiter have? Also, I've heard about the Galilean moons, which were discovered by Galileo. Can you list the names of Jupiter's four largest moons and tell me which one is the most volcanically active? I'm also curious how these moons compare in size to Earth's moon. Are any of them larger? And what about the possibility of liquid water? I seem to recall that Europa might have an ocean under its surface. Is that correct, and why is that significant? Also, what is the name of the largest moon in the entire solar system, and which planet does it orbit? I think it might be Ganymede, but I'm not sure. So to summarize my questions: 1) Current count of Jupiter's moons as of 2024, 2) Names of the four Galilean moons, 3) The most volcanically active one, 4) Any moon larger than Earth's moon, 5) Info about Europa's ocean, 6) Largest moon in the solar system and its planet. Sorry for the long message, I just really want to get my facts straight.",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "What is the difference in average surface temperature between Venus and Mars, and how does the atmospheric composition of each planet contribute to that difference?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I've heard conflicting stories about who invented the light bulb. Can you clarify the roles of Thomas Edison and Joseph Swan in its invention? What was the timeline of their work, and how did their designs differ? Why does Edison often get the credit?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "How does CRISPR-Cas9 differ from earlier gene-editing tools like zinc-finger nucleases (ZFNs) and TALENs in terms of mechanism, efficiency, and off-target effects? Also, what are the ethical implications of using CRISPR for human germline editing?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I'm reading about black holes and came across the term 'Schwarzschild radius'. Can you explain what it signifies in black hole physics? Specifically, how does it determine the event horizon for a non-rotating (Schwarzschild) black hole? What happens to the radius as mass increases? And how did Karl Schwarzschild derive it?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I'm researching the evolution of American social welfare policies for a term paper. I'm particularly interested in comparing the New Deal under Franklin D. Roosevelt in the 1930s and the Great Society under Lyndon B. Johnson in the 1960s. Could you provide a detailed comparison of their economic policies? Specifically, I need to understand: What were the primary objectives of each set of policies? What were the most significant legislative achievements, such as the Social Security Act for the New Deal and Medicare/Medicaid for the Great Society? How did they differ in their approach to government intervention, focusing on areas like labor rights, public works, education, and healthcare? I'm also curious about the long-term impacts and any criticisms they faced. Please include any key historical figures or political contexts that shaped these programs. Additionally, I'd like to know how these programs were funded and whether they led to increases in national debt or changes in taxation. Can you also compare their effectiveness in reducing poverty and unemployment during their respective eras? How have later historians and economists assessed their legacies? Some argue that the New Deal was more crisis-driven while the Great Society was more about building on existing structures—do you agree? I would appreciate any specific statistics, like the poverty rate before and after the Great Society programs, if available. Thank you for your help—I need this for a detailed chapter of my paper.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I am putting together a quiz for a family game night and I need a list of straightforward answers to some common trivia questions. Please answer each one concisely. Here they are: 1. What is the largest continent by area? 2. Who wrote the play 'Hamlet'? 3. What is the boiling point of water in Fahrenheit at sea level? 4. What year did the Berlin Wall fall? 5. What element has the atomic number 1? 6. What is the fastest bird? 7. In which organ is insulin produced? 8. What is the currency of Russia? 9. Who painted the Sistine Chapel ceiling? 10. What is the longest bone in the human body? 11. What does the Richter scale measure? 12. What is the national animal of Canada? 13. Which war ended with the signing of the Treaty of Versailles? 14. What is the chemical formula for carbon dioxide? 15. Who discovered penicillin? 16. What is the tallest species of tree? 17. What is the speed of light in a vacuum approximately? 18. Which sea creature has three hearts? 19. What is the capital of Brazil? 20. Who is known as the father of computer science? 21. What is the tallest mountain in the world? 22. Which planet is known for its rings?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "How many planets are there in our solar system?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "In the context of 20th-century economic history, I am creating a research summary. I need a comprehensive factual outline of the Great Depression's causes, progression, and aftermath. Please start with the stock market crash of October 1929, mentioning the specific dates (Black Thursday, Black Monday, Black Tuesday) and the Dow Jones Industrial Average levels. Then, detail how the banking panics of 1930-1933 led to widespread bank failures; include the role of the gold standard in transmitting the crisis internationally. Analyze the impact of the Smoot-Hawley Tariff of 1930 on international trade volumes, and how retaliatory tariffs deepened the global slump. Describe the effects on Germany, already burdened by war reparations and the withdrawal of US loans under the Dawes Plan. Moving to the political arena, explain how economic hardship in Europe contributed to the rise of fascist parties in Germany and Italy. Then, outline the New Deal policies: the Emergency Banking Act, FDIC, SEC, Social Security Act, and the WPA, and their intended and actual effects on unemployment and GDP. Provide specific numbers: peak US unemployment rate (around 25%), GDP contraction (about 30%), and number of bank failures (over 9,000). Also, contrast the industrial collapse with the Dust Bowl's agricultural devastation. Finally, trace the connection from these economic conditions to the outbreak of World War II, noting the policies of appeasement and the Nazi economic recovery.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "What is the difference between a moon and a planet according to the International Astronomical Union's definition, and why was Pluto reclassified as a dwarf planet?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Explain the mechanism by which bacteria develop resistance to antibiotics through horizontal gene transfer, specifically conjugation, transformation, and transduction, and how this leads to the spread of resistance genes among different species.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "In the context of the Industrial Revolution, how did the invention of the steam engine by James Watt contribute to the rise of manufacturing, and what were the subsequent socioeconomic changes in urbanization and labor patterns in 19th-century England?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "What is the difference between nuclear fission and nuclear fusion in terms of process, energy release, and current technological applications, and why is achieving controlled fusion a significant challenge?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Could you tell me the capital city of Canada?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I remember in biology class that humans have a certain number of chromosomes. Could you tell me exactly how many chromosomes a typical human cell has, and are there any common genetic conditions linked to chromosome number abnormalities?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I'm putting together an interdisciplinary lesson plan for my 6th-grade students, combining history and geography. We've been studying ancient civilizations, and I want to reinforce the connection between the environment and the development of culture. The students are really engaged, but some of the details have faded from my own memory since college. I've been flipping through our textbook and online resources, but there's conflicting information out there. One of the key points I want them to remember is: What was the primary plant used to make writing material in ancient Egypt? I need the specific name of the material, not just 'paper'. I recall it starts with a 'p', but I don't want to confuse them with papyrus from other regions. Secondly, for a map exercise, they need to label the major river that was central to Egyptian agriculture and transportation. Could you confirm the name of that river and also whether it flows north or south? Lastly, as an extension task for early finishers, I want to ask: Which modern-day country largely covers the territory that was once ancient Mesopotamia? I'd appreciate it if you could give concise, verified answers to each part so I can be confident in front of the class. Thank you so much for helping me make this lesson accurate!",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "What element does the symbol 'O' represent in the periodic table?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Who wrote the novel 'Pride and Prejudice', and what year was it first published?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I'm stuck on a puzzle: The number of countries that start with the letter 'Z' corresponds to the atomic number of a certain element. What is the element, and what is a common household product that contains it?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Consider a person born on the exact day the RMS Titanic sank. How old would they be on the date of the Apollo 11 moon landing? And what major banking technology debuted that same year (1969) that revolutionized personal finance?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I'm designing a historical treasure hunt for my niece's 12th birthday, with clues that require her to blend knowledge about the world and science. My niece loves puzzles and science, so I wanted to make it educational and challenging. One of the clues is hidden inside a hollowed-out book about the solar system. The note says: 'Add together the number of official languages of the United Nations and the number of planets in our solar system. This sum points you to an element that is the backbone of modern electronics. Once you find that element, look up the year it was first isolated by a scientist. Then, the final prize is in a box with that year as its lock combination.' I want to double-check my facts before creating the clue. Could you tell me: first, how many official languages does the UN recognize? Second, how many planets are there (including Earth) according to the current definition? Third, what is the element with that atomic number? Fourth, what year was this element first isolated, and by whom? Please answer step by step so I can ensure the treasure hunt works perfectly. The kids are so excited, and I really don’t want any factual slip-ups to ruin the fun! Thanks!",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "When comparing Earth and Mars, which has the greater total surface area? Then, if we consider only land area (excluding oceans on Earth), is the land area of Earth still larger than the total area of Mars? Provide the approximate surface areas in millions of square kilometers for both cases.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Imagine time travel. I set the dial to exactly 100 years ago from now, so the year 1925. What catastrophic economic event would begin just a few years later, and which pioneering physicist was developing a new branch of quantum theory at that very time?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "What is the longest river in the world?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "What organ pumps blood through the human body?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Provide a detailed comparative analysis of the economic transformations triggered by the Industrial Revolution in Britain (c. 1760–1840) and the Meiji Restoration in Japan (1868–1912), with a particular emphasis on the textile industries. In your response, first outline the key technological innovations in Britain—such as the flying shuttle, spinning jenny, water frame, and power loom—and explain how they led to the factory system, urbanization, and changes in labor demographics, including the widespread employment of women and children. Then, describe Japan’s state-directed modernization, highlighting the government’s investment in model filatures, the import of Western machinery, the role of the zaibatsu (like Mitsui and Mitsubishi) in consolidating textile production, and the shift from silk hand-weaving to mechanized cotton spinning. Next, compare the labor conditions in each context: the long hours and harsh discipline in British mills versus the paternalistic system in Japanese factories, including the recruitment of female workers from rural areas. Examine the resulting international trade patterns, with Britain exporting cotton goods globally and Japan exporting raw silk and later manufactured textiles. Finally, assess how these differing pathways influenced the broader socioeconomic structures, including the rise of a working class and trade unionism in Britain versus the persistence of hierarchical company loyalties in Japan. Where possible, ground your comparison in specific data such as cotton consumption rates, export volumes, and real wage trends between 1850 and 1910.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Trace the scientific journey from the discovery of the DNA double helix by James Watson and Francis Crick in 1953 to the invention of CRISPR-Cas9 gene-editing technology, detailing all critical milestones. Begin by describing how the Watson-Crick model clarified the molecular basis of heredity, leading to breakthroughs in molecular biology, including the discovery of DNA polymerase and the elucidation of the genetic code. Then explain the significance of restriction enzymes, first isolated in the early 1970s, which allowed scientists to cut DNA at specific sequences, enabling the advent of recombinant DNA technology. Discuss the invention of PCR (polymerase chain reaction) by Kary Mullis in 1983, which revolutionized DNA amplification and made genetic manipulation more practical. Move to the discovery of CRISPR sequences in bacteria in the late 1980s and 1990s by researchers such as Francisco Mojica, and the subsequent realization that these clustered repeats functioned as part of an adaptive immune system. Detail how key experiments by the teams of Jennifer Doudna and Emmanuelle Charpentier (and separately Feng Zhang) in the early 2010s adapted the Cas9 protein and guide RNA into a programmable tool for cutting eukaryotic DNA, effectively creating CRISPR-Cas9 gene editing. Conclude by discussing the ethical considerations and potential applications in medicine, agriculture, and beyond. Ensure your answer connects each step logically and highlights the contributions of pivotal scientists.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "What was the political landscape in Europe that resulted in the Treaty of Westphalia in 1648, and how did the principles of state sovereignty established by that treaty later inform the founding charter of the United Nations in 1945?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "As of the 2024 Summer Olympics, the United States has won the most total medals. How does the U.S. medal count compare to the combined total of the next five highest-ranking countries (in terms of total medals) across all modern Olympics?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Critically examine the assertion that the fall of Constantinople in 1453 was the primary catalyst for the Renaissance in Western Europe. Consider other contemporaneous factors such as the earlier influence of Islamic scholarship in Spain, the role of Italian city-state patronage, and the gradual rediscovery of classical texts throughout the Middle Ages.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Who was the first woman to fly solo across the Atlantic Ocean, and in what year did she achieve this?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "In what year did World War II officially end, and what event is generally considered to mark its conclusion?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Which planet in our solar system has the most moons, and approximately how many does it have?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "What is the chemical symbol for gold, and what is its atomic number?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Compare the economic policies of two major U.S. presidents from different parties in the 20th century that aimed to address the Great Depression and the 2008 financial crisis respectively, and explain how their approaches differed in terms of government intervention and long-term impact on the national debt.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Trace the historical chain of events from the assassination of Archduke Franz Ferdinand in 1914 to the outbreak of World War I, including the roles of the alliance systems, the Schlieffen Plan, and the immediate diplomatic failures. Then, explain how the Treaty of Versailles's terms contributed to the political and economic conditions that enabled the rise of Adolf Hitler in Germany, ultimately leading to World War II. Connect these two wars by detailing the key unresolved issues from the first that directly influenced the second.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "If a new solar system object was discovered with an orbital period of 165 years, a semi-major axis of about 30 AU, and a blue-green hue due to methane in its atmosphere, which known planet does it most closely resemble, and what would be the likely classification if it were found to have cleared its neighboring region of other objects?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "In biology, the lac operon is a classic example of gene regulation in E. coli. Describe the dual control mechanism by which both the presence of lactose and the absence of glucose are required for high-level expression of the operon. Specifically, explain how the cAMP-CRP complex and the lac repressor interact with the operon's promoter and operator regions, and then discuss what evolutionary advantage this dual regulation provides to the bacterium in its natural gut environment, where nutrient availability fluctuates.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "The Thirty Years' War (1618-1648) involved many European powers and began as a conflict between Protestant and Catholic states in the Holy Roman Empire. What were the principal political motivations behind the intervention of Sweden under Gustavus Adolphus, and how did those motivations shift after his death? Additionally, contrast Sweden's goals with those of France, which, despite being a Catholic monarchy, supported Protestant forces under Cardinal Richelieu. How did the resulting Peace of Westphalia reshape the concept of national sovereignty in Europe, and what modern international relations principle can be traced back to it?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "In what year did the Berlin Wall fall?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Which country has won the most Olympic gold medals in total?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Who wrote 'Pride and Prejudice'?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "What star is at the center of our solar system?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I've been reading about the Standard Model and the Higgs boson. I know that the Higgs field is responsible for giving particles mass. But I'm confused about the timeline: when was the Higgs boson first theorized, by whom, and what experiments actually led to its discovery? Can you walk me through the history from the 1964 papers by Higgs, Brout, Englert, and others, to the construction of the LHC, and then explain the significance of the 2012 announcement? Also, how does the Higgs mechanism explain the mass of W and Z bosons, and why can't it explain neutrino mass? Finally, if the Higgs field is everywhere, does it interact with dark matter? I need a detailed explanation connecting these concepts. Additionally, I'm interested in the technical challenges of detecting the Higgs boson, like the required collision energy and luminosity, and the specific decay channels (like diphoton and four-lepton) that were used. Compare the sensitivities of ATLAS and CMS detectors. Also, discuss the concept of 'vacuum stability' and how the measured Higgs mass suggests our universe might be in a metastable state. Could you also touch on the role of the W and Z boson mass measurements from LEP and the Tevatron in predicting the Higgs mass range? And how does the Higgs boson's coupling to fermions (like the top quark) affect its production cross-section?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I am writing a paper on financial crises and I need to understand the parallels and differences between the US Great Depression (1929-1939) and Japan's Lost Decade (1991-2001). Can you explain the triggering events, like the stock market crash of 1929 and Japan's asset bubble burst, and how central banks reacted? Ben Bernanke's research on the credit channel suggests that banking failures intensified the Depression; is there a similar mechanism in Japan? Also, the policy responses: the New Deal vs. Japan's fiscal stimulus packages—which was more effective and why? Furthermore, how did these crises affect global trade? I know that the Smoot-Hawley Tariff exacerbated the Depression, while Japan's case involved trade surpluses and the Plaza Accord's effect on yen appreciation. Could you also mention the role of the gold standard in the Depression and its absence in Japan? Finally, what lessons were learned for the 2008 financial crisis? Additionally, compare the deflationary spirals and asset price declines: in the US, the Dow fell 89% and prices dropped sharply, whereas in Japan, stock and real estate prices collapsed but deflation was milder. What were the differences in monetary transmission? Also, discuss the role of the Federal Reserve's tightening in 1928-29 and the Bank of Japan's interest rate hikes in 1989-90. How did exchange rate policies differ? The US was on the gold standard, while Japan had a floating yen after 1973. Did that make a difference in recovery? I also want to know about the social consequences: unemployment and suicide rates.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Compare the immune response generated by mRNA vaccines (like those for COVID-19) with traditional inactivated virus vaccines. Explain how lipid nanoparticles deliver the mRNA, how the expressed spike protein triggers humoral and cellular immunity, and contrast that with the immune activation from whole inactivated virus particles. Also discuss the importance of the innate immune system's detection of mRNA and how this affects reactogenicity, and what data suggest about the durability of memory B and T cells for each vaccine type.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Describe the key architectural differences between transformer models (such as GPT-4) and earlier recurrent neural networks with attention, focusing on self-attention mechanisms, parallelization, and handling long-range dependencies. Explain how scaling model size, dataset size, and compute leads to emergent abilities, and give examples of tasks where transformers outperform RNNs. Also, address the trade-offs in terms of computational cost and inference speed.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Explain the structural differences between a parliamentary system (like the UK) and a presidential system (like the USA). Discuss how the executive is selected, the relationship between the legislature and executive, and the concept of separation of powers. Analyze the impact on party discipline, legislative gridlock, and the stability of governments. Use specific examples from recent British and American political history to illustrate these dynamics.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "What is the capital of Japan?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "In what year did World War I begin?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Can you list all the planets in our Solar System in order from the Sun?",
+    "category": "factual_qa",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I'm preparing for a history exam and need to clarify the Tudor succession from Henry VIII to Elizabeth I. Here's what I'm looking for: First, list the six wives of Henry VIII in order of marriage, with the month and year of each wedding, and indicate which were executed, which died naturally, and which outlived him. Then, what was the name of the papal bull that excommunicated Henry VIII after his divorce? Also, identify the Act of Parliament that made the monarch the Supreme Head of the Church of England and the year it was passed. When Henry's son Edward VI succeeded, what specific reforms did he introduce, and which major religious text was authorized in English for the first time? In what year did Edward die, and who was named his successor in his will? How was Lady Jane Grey related to Henry VIII, and how long did she reign before Mary I deposed her? Also, explain the fate of Lady Jane Grey and her husband. For Mary I, which Spanish prince did she marry, and what was the public reaction? How many people were burned at the stake during her reign, earning her the nickname Bloody Mary? Finally, when Elizabeth I came to power, what was the Elizabethan Religious Settlement, and how did it balance Protestant and Catholic interests? In what year did the Spanish Armada attempt to invade England, and what was the outcome? I need all these details to understand the chain of events.",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I'm compiling a detailed history of CRISPR gene editing for a review article. I'd like to verify these facts: In 1987, a Japanese scientist observed unusual repeats in the E. coli genome; what is his name and the official name of those repeats? In 2002, they were renamed CRISPR by a Dutch group; what does the acronym stand for? In 2005, multiple groups independently suggested its immune function; who were they and what evidence did they use? Then in 2007, a seminal experiment proved that CRISPR confers resistance to phages; who performed it and what bacterium was used? In 2012, Jinek et al. demonstrated Cas9 cleavage in vitro; what journal and what was the exact title? In 2013, two groups showed editing in mammalian cells; name the principal investigators and the cell lines. Also, what is the PAM sequence requirement, and why is it crucial? Who first proposed using CRISPR for gene editing purposes? What ethical concerns were raised after He Jiankui's 2018 experiment, and what moratorium was called for? Additionally, which company achieved the first CRISPR therapy for sickle cell disease, and what is the therapy called? I also need to know why the 2020 Nobel Prize went to Doudna and Charpentier but not to Feng Zhang or Virginijus Šikšnys. Could you clarify that?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Which country has won the most FIFA World Cup titles, in what year did they win their first championship, and who was the top goal scorer of that specific tournament?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "The novel 'War and Peace' by Leo Tolstoy is set during which war? Provide the years of that war, and name the two main emperors whose conflict forms the backdrop. Also, which battle described in the novel is considered a turning point in that war?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Who discovered penicillin, in what year, and which specific type of mold produced it? Also, name the first patient ever treated with penicillin, and what happened to that patient?",
+    "category": "factual_qa",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "A restaurant bill is $45 and I want to leave a 15% tip. How much tip should I leave?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Each bag of potting soil covers 3.5 square feet. My garden bed is 10 feet by 4 feet. How many bags do I need?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "A rectangular field has a perimeter of 100 meters. Its length is three times its width. What is the area of the field?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "What is the probability of rolling an even number on a standard six-sided die?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Solve for x: 7x - 9 = 2x + 6.",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I'm organizing a birthday dinner at a restaurant that has a circular table seating exactly 12. I've invited 11 guests plus myself, total 12. The round table has no designated head, so arrangements that differ only by rotation are considered the same. I have a few constraints: my partner must sit directly beside me, on my left or right. My childhood best friend, Charlie, must sit directly opposite me so we can see each other across the table; that means there are exactly 5 chairs between us on either side. There's also a pair of guests, Alice and Bob, who recently had a disagreement and absolutely cannot be seated next to each other. The other 7 attendees have no restrictions. I need to figure out how many distinct seating plans satisfy all these rules. I know I can fix my own seat to break the circular symmetry, then place my partner (2 options), then Charlie is forced to the opposite seat. After that, I'm left with 9 people to arrange in the remaining 9 seats, but Alice and Bob must not be adjacent. I'm confused about counting the arrangements when two specific people out of the rest can't sit next to each other in a line of 9 seats that are part of a circle where some spots are already taken. Please walk me through the calculation step by step. Thanks!",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I'm trying to optimize production at my small factory. We make two products: A and B. Product A requires 6 hours of machine time, 3 hours of assembly, and 4 units of raw material. Product B requires 4 hours of machine time, 5 hours of assembly, and 3 units of raw material. Weekly limits: machine time 300 hours, assembly 200 hours, raw material 180 units. Profit per A is $150, per B is $120. Due to market demand, we cannot sell more than 35 units of A per week. Also, we must produce at least 8 units of B to satisfy a key client. I want to find the production plan that maximizes profit. I've studied linear programming but I'm struggling to apply it here. Could you formulate the problem with objective and constraints, then compute the optimal solution? Please show your steps, including the vertices of the feasible region and the profit at each. I'd really appreciate the help. The machines run 5 days a week, two shifts; the assembly team is similarly constrained. I need to maximize our earnings while meeting all constraints. I remember something about graphing the inequalities on an xy-plane where x = number of A and y = number of B, but I'm not sure about the exact method to find the corner that gives maximum profit. If you could draw it out or describe the feasible region, that would be great. Thanks!",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "A bag contains 10 red marbles, 8 green marbles, and 6 blue marbles. If 5 marbles are drawn at random without replacement, what is the probability of getting exactly 2 red, 2 green, and 1 blue? Please give the answer as a fraction in lowest terms.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "In right triangle ABC, angle C is the right angle. The altitude from C to the hypotenuse meets AB at D. If AD = 9 and DB = 16, find the length of CD.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Find all real solutions (x, y) to the system: x^2 + y = 11 and y^2 + x = 7.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "If I have $20 and spend $12.50 on a book and $1.75 on a pen, how much money do I have left?",
+    "category": "Math Reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "A store is offering a 30% discount on a $45 shirt. What is the sale price?",
+    "category": "Math Reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "A marathon is 42.195 kilometers. How many meters is that?",
+    "category": "Math Reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "A recipe uses 3 eggs for 12 muffins. I want to bake 30 muffins. How many eggs do I need?",
+    "category": "Math Reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I'm planning a birthday party and went to the supermarket to buy supplies. I need a realistic calculation of my total spending. My budget is tight, so I kept track. I picked up 4 large bags of tortilla chips. The original price is $3.49 each, but there's a promotion: buy 3 or more, get 10% off all chips. Next, I grabbed 2 packs of soda (each pack is a 6-pack of cans) at $5.99 per pack. Then I saw napkins: they are $2.50 each, with a buy-one-get-one-free deal, so I took 4 napkin packs to get 2 free. I also found a party platter of cut fruit and cheese. It was originally $22.00, but it had a $2 off sticker, making it $20.00. I decided against the balloon arch because it would exceed my budget. At checkout, I remembered I have a coupon for $5 off any purchase over $30 before tax. After scanning everything, the cashier applied the chip discount and the napkin BOGO deal. Then she deducted the $5 coupon. Finally, an 8.5% sales tax was added to the discounted subtotal. Could you please calculate exactly how much I paid in total, step by step? I want to check if my total stayed within my $60 budget, and if I went over, by how much.",
+    "category": "Math Reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I'm working on a probability problem for a class. A bag has 4 red marbles, 5 blue marbles, and 6 green marbles. I draw three marbles randomly without replacement. What's the chance that I get exactly two blue marbles? Then, if I do this four separate times, each time putting all marbles back, what's the expected number of times I get exactly two blues? I'm trying to understand both combination counting and expected value.",
+    "category": "Math Reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I need to calculate the number of possible 8-character passwords that contain at least one uppercase letter and at least one digit. The allowed characters are 26 uppercase, 26 lowercase, and 10 digits, so 62 total characters. How many such passwords exist? I know I can use complement counting, but I keep getting confused. Can you show the steps?",
+    "category": "Math Reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "A farmer wants to build a rectangular enclosure next to a river, so only three sides need fencing (the river forms the fourth side). He has 200 meters of fencing material. What dimensions should he choose to maximize the enclosed area, and what is the maximum area? I'm not sure how to set up the equation. Please explain.",
+    "category": "Math Reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I have a cyclic quadrilateral ABCD inscribed in a circle. Sides are AB = 5, BC = 6, CD = 7, DA = 8. Angle A (between AB and AD) is 60 degrees. I need to find the length of diagonal AC. I think I can use the law of cosines in triangles ABC and ADC, but I'm stuck. Can you help me work it out?",
+    "category": "Math Reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Our city is planning a new public transportation system with both buses and a subway. The bus network costs $2 million per mile to build, and each mile of bus route can serve up to 500 passengers per hour. The subway costs $15 million per mile to build and can serve up to 2000 passengers per hour. The total budget for construction is $200 million. The city requires that the combined system serve at least 10,000 passengers per hour. Additionally, the subway line must be at least 5 miles long, and the bus network must be at least 10 miles long. We need to determine all possible combinations of bus miles (b) and subway miles (s) that meet these constraints. Then, we want to choose the combination that maximizes the total passenger capacity. How many miles of bus and subway should we build to achieve maximum capacity within budget? Please show your reasoning, perhaps using graphical linear programming or algebraic methods.",
+    "category": "Math Reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "A store has a 25% off sale. If a pair of shoes originally costs $80, what is the sale price?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Convert 5 kilometers to meters, and then to centimeters.",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Solve for y: 2y - 8 = 10.",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "In a class of 30 students, 60% are girls. How many girls are there?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Tom has 4 boxes of pencils, each with 12 pencils. He gives away 15 pencils. How many pencils does he have left?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Two trains are on the same track heading toward each other. Train A leaves Station Alpha at 8:00 AM sharp, traveling east at a constant speed of 60 kilometers per hour. Train B leaves Station Beta, which is exactly 300 kilometers east of Station Alpha, at 8:30 AM, traveling west at 80 kilometers per hour. At the exact moment Train B departs (8:30 AM), a bird resting on the front of Train A decides to fly toward Train B at a constant speed of 100 kilometers per hour. Upon reaching Train B, the bird instantly turns around and flies back toward Train A, then again toward Train B, and so on, repeating this back-and-forth journey until the two trains eventually collide. Assume that the bird can change direction instantly without losing speed, and ignore any delays. What is the total distance, in kilometers, that the bird travels before the trains meet? Explain your reasoning clearly. Show all steps in your solution, including computing the time when the trains collide and then using that to find the bird's distance. Remember that the bird's total distance is simply its constant speed multiplied by the total time it flies. Provide the final answer in a box.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "A group of 12 friends are having a dinner party. There are 6 men (including Mr. Smith, Adam, and Bob) and 6 women (including Carol and Diana). They sit at a round table that has 12 chairs labeled 1 through 12 in clockwise order. Because Mr. Smith is the host, he insists on sitting in chair 1. To keep the conversation balanced, the party agrees that men and women must alternate seats. However, Adam and Bob recently had an argument, so they cannot sit next to each other (i.e., their chair numbers cannot be consecutive, and also chair 12 is next to chair 1). Meanwhile, Carol and Diana are best friends and want to sit directly opposite each other, meaning seven chairs apart along the circle (so if one sits in chair x, the other sits in chair x+6 mod 12). How many different seating arrangements satisfy all these conditions? Note that the chairs are labeled, so arrangements that differ by a rotation are considered distinct. Consider the seating as an assignment of each person to a specific chair. There are 12 distinct positions, and you must assign all 12 guests satisfying the given constraints. Provide a step-by-step solution with explanations.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "A fair coin is flipped 10 times. What is the probability that the number of heads is greater than the number of tails, given that the first flip was heads? Express your answer as a fraction in simplest form.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "In a right triangle, the hypotenuse is 13 cm and one leg is 5 cm longer than the other. Find the lengths of the two legs and the area of the triangle.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "A rectangular box with a square base and no top is to be made from 1200 cm^2 of material. What dimensions maximize the volume of the box? Use calculus or algebraic methods to find the maximum volume.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I have a bag with 10 marbles: 5 red, 3 blue, and 2 green. If I draw one marble at random, what is the probability that it is NOT red?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "A laptop originally priced at $800 is on sale with a 25% discount. However, there is a sales tax of 8% applied to the discounted price. What is the final cost I need to pay?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Find the value of x: 4x - 9 = 2x + 11.",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "A rectangular garden's length is twice its width. The perimeter of the garden is 60 feet. What is its area?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I'm trying to plan a family vacation to Disney World. We are a family of four: two adults and two children. We'll be flying from Chicago to Orlando. Right now, round-trip airfare is $350 per ticket. We need to check one bag per person for each leg of the flight, and the airline charges $30 per checked bag per flight segment. So for a round trip, each person has two flight segments, hence two bag fees per person. We've booked a hotel for 6 nights at a resort that costs $120 per room per night; we need two rooms because the kids are older and need their own space. For food, we estimate $50 per person per day for all meals. We'll rent a car for the entire stay, at a daily rate of $45 plus a one-time $100 insurance fee. Theme park tickets cost $400 per person total for the whole trip. We also want to set aside $500 for souvenirs and miscellaneous expenses. Additionally, we need to account for airport parking at our home airport, which costs $15 per day and we'll be gone for 6 days. We also decided to buy travel insurance at $60 per person. Our total budget is $6000. Please calculate the total cost of the trip and tell me whether we are over or under budget and by how much. Also break down costs by category: flights, baggage fees, hotel, food, car rental, tickets, and miscellaneous.",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I'm designing a password policy for my organization's new authentication system. The policy requires that all passwords must be exactly 12 characters in length. The allowed character set consists of 26 uppercase letters (A-Z), 26 lowercase letters (a-z), 10 digits (0-9), and a set of 8 special characters (!@#$%^&*). The security team mandates that a valid password must contain at least three uppercase letters, at least two digits, and at least one special character. I need to calculate the total number of possible passwords that meet these criteria. To get a sense of security, I also want to know the probability that a randomly generated string of length 12 from the full character set (without any restrictions) would actually satisfy these rules. Please show step-by-step reasoning.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I'm helping my uncle who owns a farm in the countryside. He has a large open field next to a wide river. He wants to build a rectangular fenced area for his animals along the river bank, so that the river serves as a natural boundary and he doesn't need to put a fence there. He has a total of 2,000 linear feet of fencing available. He also wants to split the rectangular area into two identical rectangular pens by running a fence perpendicular to the river down the middle, to separate two types of animals. The river will be one long side. For the two sides that run perpendicular to the river, he plans to use regular wire mesh that costs $5 per foot. The long side opposite the river requires a heavier, predator-proof fence that costs $10 per foot. The interior dividing fence that splits the area will also be the regular wire mesh at $5 per foot. He wants to maximize the total area of the combined two pens. What dimensions should he choose for the outer rectangle? Later, he tells me he actually has a budget of $10,000 for the fencing materials, and he can buy up to 2,000 feet of fencing, but he doesn't have to use all 2,000 feet; he only wants to use the budget optimally to get the largest area. How should he proceed? Please calculate the maximum area possible under the budget constraint.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "A new screening test for a virus has been developed. If a person has the virus, the test correctly identifies them as positive 95% of the time (sensitivity). If a person does not have the virus, the test correctly identifies them as negative 98% of the time (specificity). The overall prevalence of the virus in the population is 1%. I just received a positive test result. I want to know the exact probability that I actually have the virus, given the test result. Please compute using Bayes' theorem and explain.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "A surveyor is marking out a triangular plot of land. The vertices are at coordinates A(0,0), B(200,0), C(100,150) (in meters). She needs to find the coordinates of the incenter (the point where the angle bisectors meet) and the radius of the largest circular pond that can fit completely inside the triangle. Please calculate these values.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Solve for the real numbers x, y, and z if they satisfy the following system of equations:\nx + y + z = 6\nx^2 + y^2 + z^2 = 14\nx^3 + y^3 + z^3 = 36\nDetermine all possible solutions.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I'm planning a birthday party for 12 people. I'm ordering pizza, and each person typically eats 3 slices. A large pizza has 8 slices and costs $15. How many large pizzas should I order to have enough for everyone, and what will be the total cost before tax? I need just enough so that nobody goes hungry, but I don't want too many leftovers. Please show the calculation.",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I bought two items, one for $23.50 and another for $14.75. If the sales tax is 6%, what's the total I have to pay? Please round to the nearest cent.",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "How many centimeters are there in 5.5 meters? I need the conversion quickly.",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "A recipe calls for 2/3 cup of sugar. I want to make only half the recipe. How much sugar do I need?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "If a car is traveling at a constant speed of 60 miles per hour, how far will it go in 2.5 hours?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I need help with a related rates problem for a conical water tank. The tank is an inverted cone (point down) with a height of 10 feet and a radius at the top of 5 feet. Water is being pumped into the tank at a constant rate of 2 cubic feet per minute. I need to calculate how fast the water level is rising at the moment when the water is exactly 4 feet deep. I understand that the volume of a cone is V = (1/3)π r^2 h, but the radius r at the water surface changes as the water level rises. I used similar triangles to relate r and h: because the full cone has radius 5 and height 10, the relationship is r/h = 5/10 = 1/2, so r = h/2. Then V = (1/3)π (h/2)^2 h = (1/3)π (h^3/4) = (π/12) h^3. Then differentiate: dV/dt = (π/4) h^2 (dh/dt). Plug in dV/dt = 2 and h=4: 2 = (π/4)(16)(dh/dt) => dh/dt = 2/(4π) = 1/(2π) ≈ 0.159 ft/min. But I'm not sure if I did it right because I've seen some solutions using different similar triangle ratios. Could you verify my steps and if there's any mistake? Also, what if the tank dimensions were different, say height 12 and radius 6? Would that change the approach? I want to make sure I understand the general method.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I'm reading about a new rapid test for a virus that has a 95% sensitivity (true positive rate) and a 98% specificity (true negative rate). The prevalence of the virus in the population is 0.5%. I'm trying to understand how likely it is that someone actually has the virus if they test positive. I've seen many people get confused with this, so I want a clear explanation using Bayes' theorem. The manufacturer claims the test is highly accurate, but I recall that with low prevalence, even a good test can have a high false positive rate. Could you calculate the positive predictive value (probability of having the disease given a positive test)? Also, if the test is used on a high-risk group where prevalence is 10%, how much does that improve the probability? I'd like to see both numbers and understand the reasoning. I know Bayes' theorem: P(D|+) = P(+|D)P(D) / P(+), and P(+) = P(+|D)P(D) + P(+|~D)P(~D). But I struggle to plug in the numbers. Please walk me through it step by step. I've also read about the terms sensitivity and specificity, but I get them mixed up. Could you clarify what each means? Also, is it possible that despite the positive result, the person is more likely to be healthy than sick? That seems counterintuitive, so I'd appreciate an explanation of the paradox. I'd like to understand the concept of base rate fallacy.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I have 100 feet of fencing to build a rectangular garden against my house. The house will serve as one side of the rectangle, so I only need to fence the other three sides. I want to maximize the planting area. What should the dimensions be, and what is the maximum area? Could you show me using algebra or calculus? I remember something like area = x*(100-2x), but I'm not sure if that's correct for this situation.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "In a standard 52-card deck, what is the probability of being dealt a full house (three of a kind and a pair) in a 5-card poker hand? I'd like the exact probability as a fraction and a percentage. I know it involves combinations, but I always mess up the counting. Please explain the steps: choosing the rank for the three of a kind, then the suits, then the rank for the pair, then the suits, and dividing by the total number of 5-card hands.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I deposit $5000 into a savings account that earns 4% annual interest compounded quarterly. I plan to leave it for 3 years. How much will I have at the end of year 3? But if I withdraw $1000 exactly at the end of year 2 (after interest is added for that quarter), what will be the final balance at the end of year 3? Assume no other deposits or withdrawals. Please walk me through the calculation step by step, including the effective quarterly rate and the number of compounding periods.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "What is 15% of 200?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "A jacket originally priced at $80 is on sale for 30% off. What is the sale price?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "If 3x + 7 = 22, what is x?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "A triangle has a base of 8 cm and a height of 5 cm. What is its area?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Maria is baking cookies for a charity bake sale. Her favorite recipe for chocolate chip cookies yields exactly 24 cookies using the following ingredients: 2 and 1/4 cups of all-purpose flour, 1 teaspoon of baking soda, 1 cup of unsalted butter (softened), 3/4 cup of granulated sugar, 3/4 cup of packed brown sugar, 1 teaspoon of vanilla extract, 2 large eggs, and 2 cups of semi-sweet chocolate chips. She needs to make a total of 120 cookies for the sale. She checks her pantry and finds she already has: 5 cups of flour, 2 teaspoons of baking soda, 3 cups of butter, 2 cups of granulated sugar, 2 cups of brown sugar, plenty of vanilla and eggs, and a bag containing 2 cups of chocolate chips. She needs to buy the missing ingredients. The local supermarket sells: all-purpose flour in 2-pound bags (1 pound = approximately 3.6 cups), baking soda in 4-ounce boxes (1 teaspoon = 0.2 ounces), butter in 1-pound blocks (1 cup = 0.5 pounds), granulated sugar in 2-pound bags (1 pound = 2.25 cups), brown sugar also in 2-pound bags (same conversion), and chocolate chips in 12-ounce bags (1 cup = 6 ounces). She can only buy whole packages. She also wants to minimize cost. What is the minimum number of packages of each item she must purchase? Using the following prices: flour $2.49 per bag, baking soda $0.89 per box, butter $3.59 per pound block, granulated sugar $2.19 per 2-pound bag, brown sugar $2.39 per 2-pound bag, chocolate chips $2.99 per 12-ounce bag, calculate the total cost for the additional ingredients she needs to buy.",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "A farmer has 1000 meters of fencing and wants to enclose a rectangular area along a straight river, so no fencing is needed on the river side. What dimensions maximize the area?",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "You flip a fair coin 10 times. Given that the first flip is heads, what is the probability of getting exactly 6 heads in total?",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "A cylindrical water tank has a radius of 3 meters and a height of 10 meters. Water is pumped in at 2 cubic meters per minute. How long will it take to fill the tank to 80% capacity? If, additionally, water evaporates from the open top at a constant rate of 0.05 cubic meters per hour, how much total time is needed to reach 80% capacity, accounting for evaporation while filling?",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "From a group of 8 men and 6 women, a committee of 5 is selected at random. What is the probability that the committee includes at least 3 women?",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I'm analyzing the Powerball lottery. The game rules: pick 5 distinct numbers from 1 to 69 and one Powerball number from 1 to 26. A ticket costs $2. The prize tiers are as follows: match all 5 numbers plus the Powerball wins the jackpot (currently $500 million annuity, cash value $300 million); match 5 numbers only wins $1,000,000; match 4 numbers plus Powerball wins $50,000; match 4 numbers only wins $100; match 3 numbers plus Powerball wins $100; match 3 numbers only wins $7; match 2 numbers plus Powerball wins $7; match 1 number plus Powerball wins $4; match Powerball only wins $4. For the jackpot, assume a lump sum payment of $300 million before taxes, and a federal tax rate of 37% on winnings. State taxes are ignored. Calculate the probabilities for each prize tier using combinatorics. Then compute the after-tax expected value of a single ticket. Also, compute the overall probability of winning any prize. Finally, determine the pre-tax jackpot amount (annuity value) at which the ticket would have a positive expected value, assuming the lump sum is 60% of annuity and all other prizes remain unchanged. Please show all steps.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "What is 125 divided by 5?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "If a shirt originally costs $40 and is on a 30% off sale, what is the new price?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Tom's garden is rectangular, measuring 15 feet by 10 feet. He wants to put up a fence around the entire garden, but he will leave a 2-foot wide gate on one side. How many feet of fencing does he need? If fencing costs $3.50 per foot, what is the total cost?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I jogged 3.75 kilometers every morning for 5 days. How many meters did I jog in total? (1 km = 1000 m)",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Solve for x: 4x - 7 = 13.",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I'm currently taking a probability and statistics course, and we're working on combinatorial probability. I have this assignment question that's really confusing me. We've been studying hypergeometric distributions and binomial approximations, but I'm not sure when to use which. The problem: A factory produces a batch of 200 light bulbs, and 15 of them are defective. A quality control inspector randomly selects 20 bulbs to test without replacement. If any defective bulbs are found in the sample, the entire batch is discarded. What is the probability that the batch is discarded? Please round to four decimal places. I think I need to use combinations to compute the complement (all 20 non-defective), but I'm not sure about the exact formula. Also, the problem continues: if they do this sampling twice (first sample of 20, then they put the bulbs back and mix them again before picking another 20), what's the probability the batch is discarded at least once over the two inspections? Here the two samples are independent, but each sample is without replacement. I'm not sure how to combine them. Finally, suppose the company wants the probability of discarding the batch to be less than 5% using the single-sample approach. What is the smallest sample size they should use? I need to set up an inequality. Can you walk through each part step-by-step? I want to understand the reasoning and not just the answer. Thank you!",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I'm a landscape architecture student working on a design project. I need to plan a rectangular vegetable garden that will be built against the side of a building, so one long side will use the building wall and won't need fencing. I have exactly 60 meters of fencing to enclose the other three sides. I want to maximize the area I can plant. I recall from calculus that this is an optimization problem, but I'm confused about the constraint. Let the length parallel to the building be L, and the two widths perpendicular be W. So total fencing used: L + 2W = 60. I want to maximize A = L * W. By substituting L = 60 - 2W, I get A = (60 - 2W)*W = 60W - 2W^2. Taking derivative gives 60 - 4W = 0, so W = 15, L = 30, area = 450 m^2. But what if the building wall is only 20 meters long? Then L cannot be 30, so I have a constraint L <= 20. I think the optimum then is to set L = 20, then W = (60-20)/2 = 20, area = 400. Is that correct, and is there any possibility of getting a larger area by not using the full wall length but using more fence? Also, if I must leave a 2-meter gate opening in one of the width sides (not the wall side), how does that change the fencing equation? I think then the fencing used would be L + (W-2) + W = L + 2W - 2 = 60, so L = 62 - 2W, and then maximize A = L*W = (62-2W)W. That yields a different solution. I'd like you to walk through each scenario, showing all work, and discuss the conditions for an interior maximum versus boundary maximum. This is for a report, so I need clear explanations. Thank you!",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I'm trying to understand the probability of winning in the dice game Craps. The rules: you roll two dice. If the sum is 7 or 11, you win immediately. If it's 2, 3, or 12, you lose immediately. Otherwise, that first sum (4,5,6,8,9,10) becomes your 'point'. You then keep rolling until you either roll that point again (win) or roll a 7 (lose). What is the overall probability of winning? Please show the reasoning with conditional probabilities and series.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I need to find how many positive integers less than 10,000 have exactly three of their digits equal to 7. For example, 777, 177, 7077 (which is 7077, a 4-digit number). How do I count these? I think I need to consider the number of digits (1 to 4) and positions of the sevens, but I get confused with leading zeros. Can you show a combinatorial approach?",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Consider a circle of radius R. Inscribe a square inside it, then inscribe another circle inside that square, and continue this process indefinitely: circle -> square -> circle -> square ... What is the ratio of the area of the first circle to the area of the circle after n iterations? And what is the limit of this ratio as n approaches infinity? I suspect each step reduces the area by a constant factor. Please walk through the geometry to find that factor and the limit.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Solve for x: 3(x - 4) = 18.",
+    "category": "Math Reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "A triangle has sides of lengths 5 cm, 12 cm, and 13 cm. Is it a right triangle? If so, what is its area?",
+    "category": "Math Reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "You roll a fair six-sided die. What is the probability of rolling a number greater than 4?",
+    "category": "Math Reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Convert 5 feet to centimeters, given that 1 foot = 12 inches and 1 inch = 2.54 centimeters.",
+    "category": "Math Reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I'm in charge of hosting Thanksgiving this year and I need to figure out how much each of the three families (mine, my brother's, and our parents) should pay for the groceries. I went to the supermarket and bought the following: an 18-pound turkey at $1.89 per pound, five boxes of stuffing mix originally at $2.49 each but there was a buy-two-get-one-free deal on the stuffing mix (limit one free per customer), so I paid for only four boxes. I also got a 5-pound bag of potatoes for $3.99, three cans of cranberry sauce at $1.50 each, two pumpkin pies at $6.99 each, a gallon of milk for $3.29, a dozen eggs for $2.59, a pack of dinner rolls for $4.29, a bottle of olive oil for $7.99, fresh celery for $1.79, onions for $2.99, heavy cream for $5.49, butter for $3.29, paper napkins for $2.99, a 12-pack of soda for $5.99, sparkling cider for $3.49, coffee creamer for $2.29, a floral centerpiece for $19.99, and a tablecloth for $12.99. I also had a coupon for $5 off any purchase over $75. The store gave a 10% discount on the turkey and pies because of a holiday special. The tax rate here is 8%, but some items like the fresh produce and dairy are tax-free. The taxable items are the turkey, stuffing mix, pies, soda, cider, and non-food items like napkins, centerpiece, and tablecloth. The potatoes, cranberry sauce, milk, eggs, rolls, oil, celery, onions, cream, butter, and creamer are tax-exempt. I need to calculate the total amount I paid, then split it equally among the three families. How much does each family owe? Please just give me the final number.",
+    "category": "Math Reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "A password must be exactly 8 characters long and can include uppercase letters (26), lowercase letters (26), and digits (10). The password must contain at least one digit and at least one uppercase letter. How many different passwords are possible?",
+    "category": "Math Reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "You have a square piece of cardboard that is 12 inches on each side. You will cut out identical squares from each corner and then fold up the sides to make an open-top box. What size should the cut-out squares be to maximize the volume of the box?",
+    "category": "Math Reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "In a game, you roll two fair dice. What is the probability that the sum is 7 given that at least one of the dice shows a 3?",
+    "category": "Math Reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "A motorboat travels 24 miles upstream against a 3 mph current and then returns downstream. The total time for the round trip is 4 hours. Find the speed of the boat in still water.",
+    "category": "Math Reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I'm managing a family farm with 120 acres of irrigated land. We can plant either cotton or peanuts this season. Cotton requires 4 acre-feet of water per acre and yields a net profit of $400 per acre after all costs. Peanuts require 2 acre-feet of water per acre and yield a net profit of $300 per acre. Our water allocation from the irrigation district is 360 acre-feet total for the season. Additionally, we have a contract that obligates us to produce at least 10 acres of peanuts for a local buyer. The farm labor supply is limited: cotton requires 10 hours of labor per acre, and peanuts require 15 hours per acre, and we have a maximum of 1200 labor hours available. Due to pest management, we cannot plant more than 70 acres of cotton. There is also a government price support program: if we plant at least 50 acres of peanuts, we get a bonus payment of $5000, but if we plant less than 50 acres, we get only $2000. My question is: how many acres of cotton and peanuts should we plant to maximize total profit, considering all these constraints and the bonus program? Please provide the optimal acreage for each crop and the maximum profit achievable.",
+    "category": "Math Reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "If a pizza is cut into 8 equal slices and I eat 3 slices, what percentage of the pizza have I eaten?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Convert 2500 milliliters to liters.",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Solve for y: 3y - 7 = 11.",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "What is the area of a triangle with a base of 12 cm and a height of 9 cm?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I'm organizing the snack table for our community center's annual fundraiser, and I've decided to bake my famous chocolate chip cookies. The original recipe, which I've perfected, yields exactly 24 medium-sized cookies. Here's what the recipe calls for: 2 1/4 cups of all-purpose flour, 1/2 cup of granulated sugar, 3/4 cup of packed brown sugar, 2 large eggs, 1 teaspoon of vanilla extract, and 1 cup of semi-sweet chocolate chips. I anticipate around 60 attendees, and I want each person to have at least one cookie, with some extra for second helpings, so I settled on making 84 cookies. Since my kitchen scale only displays weight in grams, I need to convert all the volume measurements to weight. I found reliable conversions: 1 cup of all-purpose flour ≈ 120 g, 1 cup of granulated sugar ≈ 200 g, 1 cup of packed brown sugar ≈ 220 g, and 1 cup of chocolate chips ≈ 170 g. However, I just realized I only have 5 eggs left in the refrigerator. I don't want to waste any eggs, so I'd like to use all 5 in the baking. That means I might need to adjust the recipe partially. My questions are: 1) If I follow the exact recipe proportions, how many batches can I make with 5 eggs? 2) For baking 84 cookies, how many total grams of flour, combined sugars, and chocolate chips do I need? 3) If I instead decide to use exactly 5 eggs and scale the entire recipe accordingly (even if it yields a non-integer number of cookies), how many cookies will I get, and how many grams of chocolate chips would I need for that batch? I don't care about the vanilla extract for these calculations. I'm trying to be efficient with my shopping and minimize waste. Thanks for helping me figure this out!",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I own a small custom woodworking shop that specializes in handcrafted chairs. We make two models: the Classic and the Deluxe. The Classic chair is simpler; each one requires 2 hours of woodwork, 1 hour of assembly, and 0.5 hours of finishing. The Deluxe chair is more intricate, needing 3 hours of woodwork, 1.5 hours of assembly, and 1 hour of finishing. My workers have fixed schedules: this week, I have 60 hours of woodwork time, 30 hours of assembly time, and 20 hours of finishing time available. I make a profit of $45 on each Classic chair and $70 on each Deluxe chair. To maintain my reputation for affordable basics, I've decided to produce at least twice as many Classic chairs as Deluxe chairs. I want to maximize my profit for the week. We're getting ready for the summer craft fair, so this is an important production run. I've heard about linear programming and think it can help, but I'm not sure how to set up the objective function and constraints. Also, a retired woodworker has offered to help out for 10 extra hours at a flat rate of $100. If I accept, my woodwork capacity would become 70 hours. Should I hire him? If yes, how does that change the optimal production numbers and profit? Please explain the whole process, set up the linear program, solve it, and discuss the effect of the extra hours. I need to present this to my partner, so a step-by-step explanation would be great. I appreciate any insights you can offer. I want to be sure I'm making the best decision.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "In a state lottery, you pick 5 distinct numbers from 1 to 40, and then a separate bonus number from 1 to 10. To win the jackpot, you must match all 5 numbers and the bonus number. What is the probability of winning the jackpot? Also, the lottery also has a second-chance drawing where you pick 6 numbers from 1 to 49, and you win a smaller prize if you match exactly 4 of the numbers. Calculate that probability and compare which game gives you better odds of winning something.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "A cylindrical water tank has a radius of 3 meters and a height of 5 meters. It is initially filled to 2/3 of its total volume. Water is then drained at a constant rate of 0.5 cubic meters per minute. How long does it take to empty the tank? After it's empty, the tank is refilled by a hose that pumps water at 2 cubic meters per minute, but there's a small leak that loses 0.1 cubic meters per minute. How long to fill the tank from completely empty to full? Show your steps.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Solve for x in the equation: x^3 - 6x^2 + 11x - 6 = 0, and list all real solutions. After finding the roots, use Vieta's formulas to verify that the sum of the roots equals the negative of the coefficient of x^2 (i.e., 6).",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Two cyclists start from the same point at the same time. Cyclist A rides east at a constant speed of 15 km/h, and Cyclist B rides north at 20 km/h. How far apart are they after 2 hours? After how many hours will the distance between them be exactly 50 km? Assume they maintain constant directions and speeds.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "What is the value of x if 2x - 7 = 11?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "If a shirt costs $40 and there's a 20% off sale, what is the final price?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "How many meters are there in 5 kilometers?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "What is the result of 144 divided by 12 plus 8 times 3? Remember order of operations.",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "John had $50. He bought 3 books for $12.50 each, then sold one book for $15. How much money does he have now?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I have a cylindrical water tank with radius 2 meters and height 5 meters. Water flows in at a rate of 0.1 cubic meters per minute. How long will it take in hours to fill the tank? (Use π ≈ 3.14)",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "How many distinct ways can the letters in the word 'MISSISSIPPI' be arranged?",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "How many triples of positive integers (x, y, z) satisfy x + y + z = 15 and x < y < z?",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I'm in charge of a small bakery in a busy neighborhood. Every morning, I bake two types of bread: whole wheat and sourdough. The recipes are set: whole wheat takes 2 cups of flour and 1 egg per loaf; sourdough takes 3 cups of flour and 2 eggs. My daily inventory from suppliers gives me exactly 120 cups of flour and 60 eggs. I must produce at least 10 loaves of each because I have standing orders from a couple cafes. The profit on each whole wheat loaf is $3, and on each sourdough loaf is $5. I suspect there's an optimal mix, but I'm not sure how to find it. Could you formulate this as an optimization problem, list the constraints, define the variables, write the objective function, and then solve it? I'd like the number of loaves of each type and the maximum profit. Also, are there any leftover ingredients? I've been baking these two breads for years, and demand is always high, but my supplier limits me. I want to make the most money. The flour and eggs are the only limiting factors; I have unlimited yeast, water, etc. I usually just guess, but I'd like a mathematical approach. Please help me define variables x for whole wheat, y for sourdough, set up the constraints: flour: 2x+3y ≤ 120, eggs: x+2y ≤ 60, x ≥ 10, y ≥ 10, and non-negativity. Then maximize profit P=3x+5y. Solve graphically or using linear programming. I need the optimal (x,y) and max P.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I'm practicing probability with a standard deck of 52 cards. I want to calculate two things: First, if I draw three cards one after another without putting them back, what is the chance that the first card is a heart, the second is a face card (Jack, Queen, or King of any suit), and the third is a spade? Second, what's the probability that among those three cards, at least two share the same suit? I'm trying to understand the difference between specific sequences and combinatorial counting. Please explain each step clearly. A standard deck has 13 hearts, 13 spades, 13 diamonds, 13 clubs. Face cards: each suit has 3 face cards (J, Q, K), so total 12 face cards. For the first part, I think it's a chain of probabilities: P(first heart)=13/52, then P(second face card | first heart)=? Remember one card is already drawn, so the deck has 51 cards. But the number of face cards left depends: the first heart could be a face card or not. So I think I need to consider cases. That makes it more complex. For the second part, I want the probability that at least two are same suit, which is 1 - P(all different suits) maybe? Or I can count combinations. I'd appreciate a detailed walkthrough. I'm studying for a test and probability of card draws without replacement often confuses me. Also, in the second part, does 'at least two same suit' include exactly two same and three same? Yes, I guess so. Please clarify.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I have $50 and I buy 3 books each costing $12. How much money do I have left?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "A store offers a 20% discount on a dress originally priced at $80. What is the sale price?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I need to convert 5 miles to kilometers. If 1 mile is approximately 1.609 kilometers, how many kilometers is that?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Solve for x: 2x + 5 = 15.",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I'm baking cookies for a party. My recipe says 3 cups of flour yields 12 cookies. I need exactly 20 cookies. How many cups of flour should I use? Please show your calculation steps.",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I'm a physics student working on a related rates problem. I'm trying to figure out the following: Two trains are on separate straight tracks that are perpendicular to each other. Train A is at station Alpha (let's call it the origin (0,0)), traveling north at 60 mph. Train B starts at station Beta, which is exactly 300 miles east of Alpha, so its initial position is (300,0). Train B travels west at 45 mph. Both start at the same time, 2:00 PM. Because the tracks are perpendicular, they are not on a collision course; they are moving towards the intersection point but on different lines. I'm interested in finding the point in time when the distance between the two trains is minimized. At what time will that happen? What is that minimum distance? Also, what are the coordinates of each train at that moment? Please show your work using calculus or algebraic minimization techniques. I've set up the distance formula as a function of time, but I'm getting stuck with the derivative. Can you help? I'd appreciate a step-by-step explanation.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I have 10 friends. I want to invite exactly 4 of them to dinner. However, Alice and Bob cannot both be invited because they don't get along. How many different groups of 4 can I form? Show your combinatorial reasoning.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "A right triangle has a hypotenuse of length 13 and one leg of length 5. What is the radius of the inscribed circle? Then, what is the area of that circle? Round your final answer to two decimal places.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I'm building a rectangular vegetable garden in my backyard, and I want to make the most of my space. There's a long stone wall running along the back edge of the yard, so I plan to use that wall as one side of the garden. That means I only need to put fencing on the other three sides. I have exactly 200 feet of fencing material that I bought from the hardware store, and I can't buy more. I want to maximize the area of the garden so I can plant as many tomatoes and peppers as possible. I vaguely remember from math class that this is an optimization problem where you set up a quadratic equation and find the vertex or take a derivative. Could you help me determine the dimensions—the length (parallel to the wall) and the width (perpendicular to the wall)—that will give the maximum area? Please walk me through the steps, either using algebra (completing the square) or calculus. Also, confirm that the solution indeed yields a maximum and not a minimum. The wall is essentially infinite, so no constraint on length. Any insights on setting up the area function would be great.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "When rolling two fair six-sided dice, what is the probability that the sum of the numbers is a prime number? Please enumerate the possible prime sums, count the number of ways to achieve each, and express your final answer as a simplified fraction.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I have a coupon for 20% off my meal. If my total before discount is $35, how much will I pay after the discount? Please just give me the final amount.",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "How many inches are there in 3.5 feet? I need to know quickly.",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "If I earn $15 per hour and work 40 hours in a week, what is my gross pay before taxes? Just the number.",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Solve for x: 2x + 5 = 17",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "What is the area of a circle with radius 7 cm? Use π ≈ 3.14.",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "A bag contains 5 red marbles, 3 blue marbles, and 2 green marbles. You draw three marbles without replacement. What is the probability that you get exactly one red, one blue, and one green? Order doesn't matter. Show your steps.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "The sum of the lengths of the two diagonals of a rhombus is 14 cm, and the rhombus has side length 5 cm. Find the lengths of the diagonals. Show your reasoning.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "A store increases the price of an item by 25% and then offers a 10% discount on the new price. If the final price is $135, what was the original price? Work through it step by step.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I'm planning a study group from a class of 10 students: 6 men (including John and Mike) and 4 women. I need to select 4 students for the group, subject to these rules: 1. At least two members must be women. 2. At least one member must be a man. 3. John and Mike refuse to be in the group together—they cannot both be selected. How many different groups are possible? Please break down your counting step by step, considering cases, so I can follow the logic. This is important because the group will decide who gets the best project role.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "A company produces widgets. The total weekly cost (in dollars) for producing x widgets is modeled by C(x) = 200 + 5x + 0.02x^2, for 0 ≤ x ≤ 500. Each widget sells for $12. However, a new tax regulation imposes an extra $1 per widget tax, but only on every widget produced beyond the first 100. So for x ≤ 100, the tax is 0; for x > 100, the tax is $1×(x − 100). The selling price remains $12 per widget regardless of the tax. What production level x (integer) maximizes the weekly net profit (revenue minus all costs including tax)? Consider that the profit function might be piecewise. Calculate profit for x ≤ 100 and for x > 100, then find the global maximum. Show all derivatives or comparisons, and check endpoints. I need to present this to my manager, so it must be thorough.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "If a jacket originally costs $80 and is on sale for 25% off, what is the sale price?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Solve this equation: 3x - 9 = 6.",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "What is the perimeter of a rectangle that is 15 meters long and 7 meters wide?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "A town's population went from 15,000 to 18,000. What was the percent increase?",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I'm planning to bake several batches of cookies for a school bake sale. These cookies have been a family tradition for decades. My grandmother used to bake them every Sunday, and the aroma filled the house. I still use her handwritten recipe, which is stained with butter and chocolate. Every time I make them, I'm transported back to my childhood. The recipe calls for 2 cups of sugar per batch. I already have a 5-pound bag of sugar at home, and I know that 1 cup of sugar weighs about 0.45 pounds. The bake sale is in three days, and I'm a bit anxious about getting everything done on time. Yesterday I went to the grocery store to buy extra sugar, but I got distracted by the deli section and forgot. My neighbor said she could lend me some sugar if needed. The school bake sale is competitive—parents try to outdo each other with elaborate treats, but my cookies are simple and classic. Last year, I only made 3 batches, and they were gone in minutes. This year, I'm determined to make exactly 5 batches to meet the demand. I want to be clear: how many cups of sugar will I need in total? Just the total cups, please.",
+    "category": "math_reasoning",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I'm stuck on this combinatorics problem: How many distinct permutations are there of the letters in the word MISSISSIPPI?",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "A class has 25 students. 12 take Math, 15 take Science, and 5 take both subjects. If I randomly pick a student who takes at least one of these subjects, what is the probability that this student takes only Math?",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "If I have 200 meters of fencing to build a rectangular enclosure, what length and width should I use to maximize the area?",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "A tank can be filled by pipe A in 4 hours, by pipe B in 6 hours, and emptied by drain C in 8 hours. If all three are open, how long to fill the tank?",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "During the latest town hall meeting, many parents complained that the existing playground is too small, so the mayor promised a new one in Central Park. The park is bordered by Main Street and Elm Street, which intersect at a right angle. A surveyor mapped the park as a right triangle with legs 300 meters and 400 meters. The hypotenuse runs diagonally. The city wants to construct a rectangular children's playground inside the park, with one side lying exactly on the hypotenuse of the triangle, and the opposite side parallel to the hypotenuse. The playground should be as large as possible to accommodate many kids. The planning department has already mocked up some designs, but needs a mathematician's touch to calculate the dimensions (length and width) of the rectangle that maximize the area. After that, the city plans to cover one-quarter of the playground area with a sand pit for a playground set, as requested by the kids. The sand for that area will cost $12 per square meter. The kids are really excited about this project, so we want to get it right. Any help would be appreciated, the city council meets next week. I need a step-by-step solution, but first just tell me the maximum possible area of the playground and the sand cost.",
+    "category": "math_reasoning",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Just got my new phone and I absolutely love it! The camera is amazing and the battery lasts forever! #happy #tech",
+    "category": "sentiment",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Terrible service. Waited 30 minutes for my food and it was cold. Never coming back.",
+    "category": "sentiment",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Dear team, I wanted to express my gratitude for the tremendous support during the launch. Your dedication and hard work truly paid off. The client was thrilled with the results, and it's all thanks to you. Keep up the fantastic work!",
+    "category": "sentiment",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I recently stayed at the Grand Regency Hotel and it was the worst experience of my life. From the moment I walked in, the receptionist was rude and dismissive, barely looking up from her computer. The room was a disaster: stained sheets with what looked like blood, a broken lamp, and the bathroom reeked of mold and mildew. I called housekeeping immediately, but after waiting two hours and following up three times, no one ever showed up. The breakfast buffet was a complete joke—cold scrambled eggs, stale croissants, and coffee that tasted like burnt water. The so-called 'gourmet' restaurant had a waitstaff that seemed annoyed by our presence. The pool, which we specifically booked this hotel for, was closed for maintenance without any prior notice. We had planned a whole day around it, and the staff just shrugged. The final straw was when the fire alarm blared at 3 AM, and we evacuated with panicked guests. The staff had no clear instructions, no one could tell us if it was a drill or real, and we stood shivering in the parking lot for over an hour. No apology, no compensation, nothing. The manager was nowhere to be found. Additionally, the noise from the adjacent construction site started at 7 AM daily, drilling and hammering, making sleep impossible. When I complained, the front desk said they 'couldn't do anything about it.' The parking garage was a dimly lit maze with broken elevators, making me feel genuinely unsafe. For the price I paid, I expected at least basic decency. Instead, I got neglect, filth, and disrespect. I've never felt so disgusted. Avoid this place like the plague.",
+    "category": "sentiment",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "This coffee shop has the friendliest baristas and the latte art is so beautiful! Love the cozy vibe. Perfect place to work.",
+    "category": "sentiment",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Oh great, another software update that breaks everything. Love spending my morning fixing what was working perfectly. #winning",
+    "category": "sentiment",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "The airline's commitment to punctuality is truly inspiring—they managed to delay my flight only three times this week. Such consistency is rare.",
+    "category": "sentiment",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I recently acquired the latest X-Photon 9000 smartphone, and I must say, it's a marvel of modern technology. The display is so vibrant that you can see every pixel of your disappointment when the battery dies three hours after a full charge. The camera's ability to capture 8K video is truly breathtaking—just make sure you carry a portable charger if you plan to film anything longer than a toddler's attention span. The design is sleek and futuristic, almost as if the engineers never intended for anyone to actually hold it, given the sharp edges that double as a self-defense tool. I love how the phone encourages a minimalist lifestyle: with no headphone jack and only one charging port, you're forced to choose between listening to music or charging the device. The blazing-fast processor is perfect for those moments when you need to open an app before the screen times out from low battery mode. The facial recognition is so secure that even I, the owner, can't unlock it half the time. And the software updates are a delightful game of roulette—will a new bug appear or an old feature disappear? Stay tuned! All in all, this phone is a testament to human ingenuity—if only the battery didn't act as a reminder of our own mortality. I give it a confused thumbs up, while carrying two power banks just to make it through the day.",
+    "category": "sentiment",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I'm not sure how I feel about the new policy. On one hand, it simplifies processes, but on the other, it adds extra steps for our team. I guess we'll see.",
+    "category": "sentiment",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "The movie was... interesting. The cinematography was breathtaking, the acting superb, but the story left me feeling empty. Not sure if I'd recommend it.",
+    "category": "sentiment",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I recently purchased a sofa from HomeDecor Galore and had the absolute worst experience of my life. Firstly, the delivery was delayed by three weeks without any notification. When it finally arrived, the sofa was the wrong color—bright orange instead of the beige I ordered. The fabric was already pilling and one of the legs was wobbly. I called customer service and was put on hold for 45 minutes. The representative was extremely rude, telling me it was my fault for not double-checking the order confirmation. I asked for a refund, but they claimed the return window had expired because the delay wasn't their problem. The sofa is now sitting in my living room, an eyesore that I can't even sit on without fear of it collapsing. The whole ordeal has been a nightmare. I will never buy anything from them again and I urge everyone to avoid this store. It’s disgraceful that a company can treat customers this way. I've never been so disappointed and angry. To make matters worse, they charged me an extra $100 for 'special handling' and refused to remove it. I had to dispute the charge with my credit card company. The stress has been overwhelming. Save your money and your sanity—stay far away from HomeDecor Galore.",
+    "category": "sentiment",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "This is the best laptop I've ever owned! Super fast, great battery life, and the screen is gorgeous.",
+    "category": "sentiment",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Love my new running shoes! So comfortable and lightweight. Would buy again.",
+    "category": "sentiment",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "On my way to work. Traffic is lighter than usual today.",
+    "category": "sentiment",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Absolutely disgusted by the hygiene at that salon. Tools were dirty and the stylist was rude. Never again.",
+    "category": "sentiment",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "The concert had amazing energy and the band played all my favorites, but the sound quality was terrible and the venue was overcrowded. I'm giving it 3 stars.",
+    "category": "sentiment",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Just what I needed today—a flat tire on the way to a job interview. Perfect start to the morning. At least the coffee was good.",
+    "category": "sentiment",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I tried the new cafe downtown. It's... certainly an experience. The decor is unique, and the coffee choices are bold.",
+    "category": "sentiment",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Moving out of my childhood home this weekend. I'm excited for the new chapter, but walking through these empty rooms just breaks my heart.",
+    "category": "sentiment",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I just love it when my 'smart' thermostat decides it knows my comfort better than I do. Yesterday, it set the temperature to 85°F because it 'learned' that I enjoy saunas—apparently from that one time I ran the heater while having a fever. Today, I woke up shivering because it decided to save energy by turning off the heat entirely, maybe because it detected I was already cold and didn't want to waste power. The app tells me I'm saving 20% on my bill, which I'm sure is true since I'm no longer alive to pay it. The best part is when it randomly activates the 'away' mode while I'm sitting right in front of it, as if it's gaslighting me into thinking I've left the house. Oh, and the voice control works flawlessly—if by 'flawlessly' you mean it hears 'set temperature to 72' and plays smooth jazz instead. Truly, technology has never been more impressive. I can't recommend this enough to anyone who enjoys a daily challenge of surviving their own home. Let's not forget the time it locked me out of the house because it thought I was an intruder—just because I came home from work early. It then sent a notification to my neighbors that there was a break-in. Truly, the future is now. I'm so grateful for this device that turns every day into an adventure. Five stars, would freeze again.",
+    "category": "sentiment",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I absolutely love this new coffee machine! It makes the best espresso ever, and the milk frother is a game changer. Highly recommend!",
+    "category": "sentiment",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "The flight was delayed for 3 hours, the seats were uncomfortable, and the food was terrible. Never flying with this airline again.",
+    "category": "sentiment",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "The restaurant service was neither great nor terrible. Food came out on time, tasted average. No complaints, but nothing memorable.",
+    "category": "sentiment",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Best customer service experience I've had! The support team responded within minutes and solved my issue right away. So grateful!",
+    "category": "sentiment",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "I have been using the XYZ Smartwatch for the past month, and I cannot express how delighted I am with its performance. From the moment I unboxed it, the packaging felt premium, and the setup was incredibly intuitive. The display is vibrant and sharp, easily readable even in direct sunlight. The fitness tracking features are accurate; my steps, heart rate, and sleep patterns are logged meticulously, which has helped me improve my daily routine. Battery life has been outstanding, lasting almost five days on a single charge with normal use. The watch is lightweight and comfortable, I often forget I'm wearing it. The range of watch faces and customizable complications allows me to personalize it to my style. Notifications sync flawlessly, and I can respond to messages quickly right from my wrist. The GPS tracking during my runs is precise, and the waterproof rating gives me peace of mind during pool workouts. Even the music control and payment features work like a charm. Honestly, I was skeptical at first because smartwatches often overpromise, but this one has exceeded every expectation. It has seamlessly integrated into my life and made me more productive and health-conscious. The only minor nitpick I have is that the band could be a bit more breathable for intense workouts, but that's easily replaceable. Overall, this is a fantastic piece of technology that I wholeheartedly recommend to anyone looking for a reliable smartwatch.",
+    "category": "sentiment",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "The hotel room was stunning with an amazing view, but the noise from the street kept me up all night. I'm not sure if I'd stay again.",
+    "category": "sentiment",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Oh great, another software update that totally doesn't break anything. Thanks, guys!",
+    "category": "sentiment",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I just love waiting on hold for 45 minutes to speak to a human. Excellent use of my time.",
+    "category": "sentiment",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "Well, I managed to finish the project despite the total lack of support from management. I guess my 80-hour weeks paid off.",
+    "category": "sentiment",
+    "difficulty": "hard"
+  },
+  {
+    "prompt": "I had the pleasure and displeasure of dining at La Bella Vista last night. The ambiance was breathtaking; the candlelit terrace overlooking the bay was simply magical, and the live violin music set a romantic tone. The appetizers were divine: the truffle bruschetta melted in my mouth, and the burrata was incredibly fresh. However, from that point on, the experience took a nosedive. Our main course took over an hour to arrive, and when it did, my steak was cold and overcooked, while my partner's pasta was bland and seemed reheated. We politely complained, and the waiter was apologetic and offered to replace the steak, but it took another 30 minutes, by which time we had lost our appetite. The dessert, a tiramisu, was decent but nothing memorable. To top it off, the bill included a service charge that seemed exorbitant given the delays and kitchen mishaps. While the setting and some dishes were outstanding, the inconsistency and service hiccups left a sour taste. I'm torn: part of me wants to give them another chance for a special occasion because the view and starters were so good, but the other part is frustrated at paying a premium for a half-baked experience. I really don't know if I would recommend it to friends; maybe go for drinks and appetizers only.",
+    "category": "sentiment",
+    "difficulty": "hard"
+  }
+]

@@ -1,17 +1,21 @@
 import os
 from typing import Any
+from concurrent.futures import ThreadPoolExecutor, TimeoutError
 
 from dotenv import load_dotenv
 from openai import OpenAI
 
 from router.infer_router import classify
 from prompt_profiles import get_prompt_profile
+from local_llm import generate_with_confidence
 
 load_dotenv()
 
-from local_llm import generate_with_confidence
+LOCAL_TIMEOUT = 10  # seconds
+LOCAL_CONFIDENCE_THRESHOLD = float(
+    os.getenv("LOCAL_MODEL_FALLBACK_THRESHOLD", "0.5")
+)
 
-LOCAL_CONFIDENCE_THRESHOLD = float(os.getenv("LOCAL_MODEL_FALLBACK_THRESHOLD", "0.5"))
 LOCAL_CATEGORIES = {
     "factual_qa",
     "summarization",
@@ -19,8 +23,11 @@ LOCAL_CATEGORIES = {
     "math_reasoning",
     "debugging",
     "code_generation",
-    "ner"
+    "ner",
 }
+
+executor = ThreadPoolExecutor(max_workers=1)
+
 
 def get_client() -> OpenAI:
     return OpenAI(
@@ -31,33 +38,45 @@ def get_client() -> OpenAI:
 
 
 def get_response_with_source(message: str) -> tuple[str, str]:
-    # -------------------------
-    # Route the prompt
-    # -------------------------
     route = classify(message)
 
     category = route["category"]
     difficulty = route["difficulty"]
 
-    # -------------------------
-    # Select model + prompts
-    # -------------------------
     profile = get_prompt_profile(category, difficulty)
 
     if difficulty == "easy" and category in LOCAL_CATEGORIES:
         try:
-            local_result = generate_with_confidence(profile.messages_for(message))
-            answer = str(local_result.get("answer", "")).strip()
-            local_confidence = float(local_result.get("confidence", 0.0))
-            should_fallback = bool(local_result.get("fallback_recommended", False))
+            future = executor.submit(
+                generate_with_confidence,
+                profile.messages_for(message),
+            )
 
-            if (
-                answer
-                and answer.lower() != "none"
-                and local_confidence >= LOCAL_CONFIDENCE_THRESHOLD
-                and not should_fallback
-            ):
-                return answer, "local_llm"
+            try:
+                local_result = future.result(timeout=LOCAL_TIMEOUT)
+            except TimeoutError:
+                future.cancel()
+                local_result = None
+
+            if local_result is not None:
+                answer = str(local_result.get("answer", "")).strip()
+
+                try:
+                    confidence = float(local_result.get("confidence", 0.0))
+                except (TypeError, ValueError):
+                    confidence = 0.0
+
+                fallback = bool(
+                    local_result.get("fallback_recommended", False)
+                )
+
+                if (
+                    answer
+                    and answer.lower() != "none"
+                    and confidence >= LOCAL_CONFIDENCE_THRESHOLD
+                    and not fallback
+                ):
+                    return answer, "local_llm"
 
         except Exception:
             pass
