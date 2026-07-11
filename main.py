@@ -11,7 +11,16 @@ load_dotenv()
 
 from local_llm import generate_with_confidence
 
-LOCAL_CONFIDENCE_THRESHOLD = float(os.getenv("LOCAL_MODEL_FALLBACK_THRESHOLD", "0.65"))
+LOCAL_CONFIDENCE_THRESHOLD = float(os.getenv("LOCAL_MODEL_FALLBACK_THRESHOLD", "0.5"))
+LOCAL_CATEGORIES = {
+    "factual_qa",
+    "summarization",
+    "sentiment",
+    "math_reasoning",
+    "debugging",
+    "code_generation",
+    "ner"
+}
 
 def get_client() -> OpenAI:
     return OpenAI(
@@ -35,18 +44,21 @@ def get_response_with_source(message: str) -> tuple[str, str]:
     # -------------------------
     profile = get_prompt_profile(category, difficulty)
 
-    if difficulty == "easy":
+    if difficulty == "easy" and category in LOCAL_CATEGORIES:
         try:
             local_result = generate_with_confidence(profile.messages_for(message))
+            answer = str(local_result.get("answer", "")).strip()
             local_confidence = float(local_result.get("confidence", 0.0))
             should_fallback = bool(local_result.get("fallback_recommended", False))
 
             if (
-                local_result.get("answer")
+                answer
+                and answer.lower() != "none"
                 and local_confidence >= LOCAL_CONFIDENCE_THRESHOLD
                 and not should_fallback
             ):
-                return str(local_result["answer"]).strip(), "local_llm"
+                return answer, "local_llm"
+
         except Exception:
             pass
 
@@ -59,7 +71,7 @@ def get_response_with_source(message: str) -> tuple[str, str]:
         messages=profile.messages_for(message),
     )
 
-    return (response.choices[0].message.content or "").strip(), "fireworks"
+    return (response.choices[0].message.content or ""), "fireworks"
 
 
 def get_response(message: str) -> str:

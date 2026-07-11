@@ -63,7 +63,6 @@ def generate_with_confidence(
     output = get_llm().create_chat_completion(
         messages=guarded_messages,
         temperature=temperature,
-        max_tokens=max_tokens,
     )
 
     content = output["choices"][0]["message"]["content"] or ""
@@ -77,7 +76,7 @@ def generate_with_confidence(
             "raw_content": content,
         }
 
-    answer = str(parsed.get("answer", "")).strip()
+    answer = "" if parsed.get("answer") is None else str(parsed["answer"]).strip()
     raw_confidence = parsed.get("confidence", 0.0)
 
     try:
