@@ -1,4 +1,4 @@
-.venv/
+.venv
 .git
 __pycache__/
 *.pyc
@@ -6,11 +6,8 @@ __pycache__/
 *.pyd
 
 output/
-input/
-data/
 
 .env
-.env.example
 
 .vscode/
 .idea/
@@ -19,13 +16,5 @@ data/
 
 build/
 dist/
-vuln-trial/
 
 .cache/
-
-test_router.py
-server.py
-
-.gitignore
-.dockerignore
-.python-version
