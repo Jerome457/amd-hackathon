@@ -10,10 +10,10 @@ from dotenv import load_dotenv
 # ==========================
 
 load_dotenv()
-MODEL = "accounts/fireworks/models/deepseek-v4-pro"
+MODEL = "accounts/fireworks/models/minimax-m3"
 
 PROMPTS_PER_CALL = 10
-CALLS_PER_CATEGORY = 13
+CALLS_PER_CATEGORY = 5
 
 OUTPUT_FILE = "synthetic_dataset.json"
 
@@ -97,6 +97,7 @@ or
   "category": "...",
   "difficulty": "hard"
 }
+
 DIFFICULTY GUIDELINES BY CATEGORY:
 
 1. Sentiment Analysis:
@@ -131,9 +132,24 @@ DIFFICULTY GUIDELINES BY CATEGORY:
    - Easy: Small utility functions, loops, string manipulation, or basic algorithms.
    - Hard: Multi-file software design, API integration, asynchronous programming, graph algorithms, parsers, optimization problems, or system design tasks.
 
+IMPORTANT:
+
 Generate exactly 10 prompts:
-- Exactly 5 easy
-- Exactly 5 hard
+- Exactly 8 EASY prompts
+- Exactly 2 HARD prompts
+
+The majority of prompts should be clearly EASY.
+
+Easy prompts should:
+- require at most one or two reasoning steps
+- use simple language
+- avoid ambiguity
+- avoid multiple interacting constraints
+- resemble common user requests
+- be suitable for a small local language model
+
+Hard prompts should genuinely require advanced reasoning.
+Do NOT label medium-difficulty prompts as hard.
 
 Additional requirements:
 - Mix short, medium, and long prompts.
@@ -141,6 +157,8 @@ Additional requirements:
 - Avoid repeating topics.
 - Make prompts realistic, as if written by actual users.
 - Do not include answers.
+
+Return ONLY valid JSON.
 """
 
 # ==========================
@@ -181,7 +199,9 @@ for category in CATEGORIES:
         Category guidance:
         {CATEGORY_HINTS[category]}
 
-        Generate exactly 5 easy prompts and exactly 5 hard prompts.
+        Generate exactly:
+        - 8 easy prompts
+        - 2 hard prompts
 
         Return ONLY valid JSON.
         """

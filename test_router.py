@@ -3,20 +3,16 @@
 from router.infer_router import classify
 
 examples = [
-    "What is the capital of Australia, and what body of water is it near?",
-    "A store has 240 items. It sells 15% on Monday and 60 more on Tuesday. How many items remain?",
-    "Classify the sentiment of this review: The battery life is great, but the screen scratches too easily.",
-    "Summarize the following in exactly one sentence: The global transition to renewable energy faces a critical bottleneck in grid infrastructure, where legacy alternating current (AC) networks struggle to manage the intermittent, highly distributed generation profiles of utility-scale solar and offshore wind farms without causing destabilizing voltage fluctuations; consequently, engineering firms are aggressively deploying high-voltage direct current (HVDC) transmission lines and grid-scale lithium-iron-phosphate (LFP) battery storage systems to act as dynamic buffers, yet this technological overhaul remains severely constrained by regulatory delays, geopolitical conflicts over rare-earth mineral supply chains, and a stark deficit in specialized electrical engineering talent.",
-    "Extract all named entities and their types from: Maria Sanchez joined Fireworks AI in Berlin last March.",
-    "This function should return the max of a list but has a bug: def get_max(nums): return nums[0]. Find and fix it.",
-    "Three friends, Sam, Jo, and Lee, each own a different pet: cat, dog, bird. Sam does not own the bird. Jo owns the dog. Who owns the cat?",
-    "Write a Python function that returns the second-largest number in a list, handling duplicates correctly.",
-    "An item costs $71. It has a 30% discount applied, then 8% sales tax is added to the discounted price. What is the final price, rounded to 2 decimal places?",
-    "What is 424 + 686?",
-    "Find and explain the bug in this Python function:\n```python\ndef is_even(n):\n    if n % 2 == 1:\n        return True\n    return False\n```",
-    "Summarize this in exactly 2 bullet points, each under 15 words: The city's transit authority reported a 22% rise in ridership after launching a flat monthly pass, though fare revenue per trip fell 9% as riders shifted from single tickets. Maintenance costs also rose due to an aging bus fleet, prompting the authority to request emergency funding from the state to cover a projected budget gap next fiscal year.",
-    "Write a Python function `group_anagrams(words)` that groups a list of strings into lists of anagrams of each other. Return a list of groups, each group sorted alphabetically, and the groups sorted by their first element.",
-    "Classify the sentiment of this review and justify it in one sentence: \"This laptop's battery easily lasts a full workday, and the screen is gorgeous.\"",
+    "Name the three primary colors in the RGB color model and briefly explain why displays use RGB instead of RYB.",
+    "What is the difference between machine learning and deep learning? Briefly explain how each works.",
+    "Explain the difference between RAM and ROM in a computer. What is each type used for?",
+    "A warehouse starts with 2,400 units. In Q1 it sells 37% of stock. In Q2 it restocks 800 units. In Q3 it sells 640 units. How many units remain at the end of Q3?",
+    "A recipe requires 3/4 cup of sugar for 12 cookies. How much sugar is needed for 30 cookies? If sugar costs $2.40 per cup, what is the total cost of sugar for 30 cookies?",
+    "Classify the sentiment of this customer review as Positive, Negative, or Neutral and give a one-sentence reason: 'The product arrived two days late and the packaging was damaged, but the item worked perfectly and customer support resolved my complaint within an hour.'",
+    "Classify the sentiment of this tweet as Positive, Negative, or Neutral and give a one-sentence reason: 'Just got my order. Box was dented and the manual was missing, but honestly the device itself is flawless and set up in under 5 minutes.'",
+    "Summarize the following passage in exactly two sentences:\n\nMachine learning is increasingly deployed in healthcare for diagnosis, treatment planning, and patient monitoring. These systems analyse medical images, predict patient deterioration, and spot patterns in electronic health records that might be missed by human clinicians. However, concerns remain about model interpretability, data privacy, liability when errors occur, and the potential for algorithmic bias to worsen existing healthcare disparities. Regulatory frameworks are still catching up with the pace of deployment, creating uncertainty for healthcare providers and technology developers alike.",
+    "Summarize the following passage in exactly three bullet points, each no longer than 15 words:\n\nRemote work has transformed how companies operate globally. Employees gain flexibility and reduced commute times, leading to reported improvements in work-life balance. However, challenges persist around collaboration, company culture, and the blurring of personal and professional boundaries. Organisations are responding by investing in digital collaboration tools and rethinking office space as a hub for social and creative work rather than daily attendance.",
+    "Extract all named entities from the following text and label each as PERSON, ORGANIZATION, LOCATION, or DATE:\n\nOn March 15 2023, Sundar Pichai announced that Google would open a new AI research lab in Zurich, partnering with ETH Zurich to focus on large language model safety.",
 ]
 
 print("=" * 80)

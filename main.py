@@ -20,7 +20,6 @@ LOCAL_CATEGORIES = {
     "factual_qa",
     "summarization",
     "sentiment",
-    "math_reasoning",
     "debugging",
     "code_generation",
     "ner",
