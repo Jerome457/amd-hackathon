@@ -36,7 +36,7 @@ logger = logging.getLogger(__name__)
 @dataclass(frozen=True)
 class TrainingConfig:
     model_name: str = "distilbert-base-uncased"
-    data_path: Path = Path("data/synthetic_dataset.json")
+    data_path: Path = Path("router_training_dataset.json")
     output_dir: Path = Path("checkpoints/router")
     epochs: int = 6
     batch_size: int = 16

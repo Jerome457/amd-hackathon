@@ -87,80 +87,50 @@ Each element MUST have exactly this format:
 {
   "prompt": "...",
   "category": "...",
-  "difficulty": "easy"
+  "ground_truth": "..."
 }
 
-or
+Requirements:
 
-{
-  "prompt": "...",
-  "category": "...",
-  "difficulty": "hard"
-}
-
-DIFFICULTY GUIDELINES BY CATEGORY:
-
-1. Sentiment Analysis:
-   - Easy: Explicitly positive, negative, or neutral opinions with obvious emotional language.
-   - Hard: Mixed sentiment, sarcasm, irony, implicit opinions, conflicting emotions, or subtle tone.
-
-2. Math Reasoning:
-   - Easy: Basic arithmetic, percentages, unit conversions, or single-step algebra.
-   - Hard: Multi-step word problems, combinatorics, probability, optimization, geometry, or symbolic reasoning.
-
-3. Summarization:
-   - Easy: Short, well-structured news articles or narratives with a single clear topic.
-   - Hard: Long scientific papers, legal documents, technical reports, or documents containing multiple viewpoints or conflicting information.
-
-4. Debugging:
-   - Easy: Syntax errors, missing imports, indentation issues, or simple runtime exceptions.
-   - Hard: Logical bugs, concurrency issues, memory problems, performance bottlenecks, race conditions, or subtle edge cases.
-
-5. Factual QA:
-   - Easy: Direct factual questions answerable from common knowledge.
-   - Hard: Multi-hop factual reasoning, temporal reasoning, comparisons across entities, ambiguous historical events, or questions requiring connecting multiple facts.
-
-6. Named Entity Recognition (NER):
-   - Easy: Text containing clearly identifiable people, organizations, locations, dates, and products.
-   - Hard: Ambiguous entity names, nested entities, abbreviations, overlapping entities, multilingual names, or entities requiring contextual disambiguation.
-
-7. Logical Reasoning:
-   - Easy: Simple deduction, ordering, or one-step logical inference.
-   - Hard: Constraint satisfaction, scheduling, truth-teller puzzles, transitive reasoning, multiple interacting rules, or complex deduction.
-
-8. Code Generation:
-   - Easy: Small utility functions, loops, string manipulation, or basic algorithms.
-   - Hard: Multi-file software design, API integration, asynchronous programming, graph algorithms, parsers, optimization problems, or system design tasks.
-
-IMPORTANT:
-
-Generate exactly 10 prompts:
-- Exactly 8 EASY prompts
-- Exactly 2 HARD prompts
-
-The majority of prompts should be clearly EASY.
-
-Easy prompts should:
-- require at most one or two reasoning steps
-- use simple language
-- avoid ambiguity
-- avoid multiple interacting constraints
-- resemble common user requests
-- be suitable for a small local language model
-
-Hard prompts should genuinely require advanced reasoning.
-Do NOT label medium-difficulty prompts as hard.
-
-Additional requirements:
-- Mix short, medium, and long prompts.
+- Generate exactly 10 prompt/answer pairs.
+- All prompts must belong to the requested category.
+- The ground_truth must be completely correct.
+- Do NOT explain the answer.
+- Do NOT include reasoning unless explicitly requested in the prompt.
+- Make prompts realistic as if written by actual users.
+- Mix short, medium and long prompts.
 - At least 2 prompts should exceed 200 words.
-- Avoid repeating topics.
-- Make prompts realistic, as if written by actual users.
-- Do not include answers.
+- Avoid duplicate topics.
+
+Category-specific rules:
+
+Factual QA:
+- ground_truth should be the factual answer.
+
+Math Reasoning:
+- ground_truth should contain the correct final answer.
+- Include calculations only if the prompt explicitly asks to show work.
+
+Sentiment:
+- ground_truth should contain the correct sentiment label and requested explanation.
+
+Summarization:
+- ground_truth should be a valid summary satisfying all constraints.
+
+NER:
+- ground_truth should contain every entity with its correct type.
+
+Debugging:
+- ground_truth should contain the corrected code.
+
+Logical Reasoning:
+- ground_truth should contain the correct conclusion.
+
+Code Generation:
+- ground_truth should contain the requested working code.
 
 Return ONLY valid JSON.
 """
-
 # ==========================
 # Initialize Data & Resume Tracking
 # ==========================
@@ -191,17 +161,13 @@ for category in CATEGORIES:
     for call in range(CALLS_PER_CATEGORY):
 
         user_prompt = f"""
-        Generate exactly {PROMPTS_PER_CALL} unique prompts.
+        Generate exactly {PROMPTS_PER_CALL} prompt/ground_truth pairs.
 
         Category:
         {category}
 
         Category guidance:
         {CATEGORY_HINTS[category]}
-
-        Generate exactly:
-        - 8 easy prompts
-        - 2 hard prompts
 
         Return ONLY valid JSON.
         """
@@ -221,6 +187,7 @@ for category in CATEGORIES:
                         "content": user_prompt,
                     },
                 ],
+                service_tier="priority"
             )
 
             text = response.choices[0].message.content.strip()
